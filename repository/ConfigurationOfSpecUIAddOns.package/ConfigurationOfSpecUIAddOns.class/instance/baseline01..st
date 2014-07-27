@@ -5,4 +5,10 @@ baseline01: spec
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
 		spec repository: 'http://smalltalkhub.com/mc/hernan/SpecUIAddOns/main/'.
-		spec package: #SpecUIAddOns. ].
+		spec project: 'CodeGenerator' with: [
+				spec
+					className: #ConfigurationOfCodeGenerator;
+					versionString: #'stable';
+					repository: 'http://smalltalkhub.com/mc/hernan/CodeGenerator/main/' ].
+		spec package: #SpecUIAddOns with: [
+				spec requires: #('CodeGenerator' ). ]. ].
