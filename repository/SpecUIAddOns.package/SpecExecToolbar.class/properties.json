@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "HernanMoralesDurand 7/4/2014 03:16",
 	"super" : "OkCancelToolbar",
-	"category" : "SpecUIAddOns-Core",
+	"category" : "SpecUIAddOns-Widgets",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SpecQBExecToolbar",
+	"name" : "SpecExecToolbar",
 	"type" : "normal"
 }

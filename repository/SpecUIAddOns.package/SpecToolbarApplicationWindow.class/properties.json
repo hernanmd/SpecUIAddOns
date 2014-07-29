@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "SpecApplicationWindow",
+	"category" : "SpecUIAddOns-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"toolbar",
+		"mainToolbar"
+	],
+	"name" : "SpecToolbarApplicationWindow",
+	"type" : "normal"
+}

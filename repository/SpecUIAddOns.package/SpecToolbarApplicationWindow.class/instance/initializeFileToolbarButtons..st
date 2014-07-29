@@ -1,0 +1,4 @@
+initialize
+initializeFileToolbarButtons: group
+
+	self subclassResponsibility

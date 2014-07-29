@@ -1,6 +1,6 @@
 accessing
 addHeader: aCollection
 
-	header := aCollection copy.
-	header addFirst: '#'.
+	header := aCollection asOrderedCollection copy.
+	self isNumbered ifTrue: [ header addFirst: '#' ].
 	self listItems addFirst: header.
