@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 8/3/2014 01:39",
+	"super" : "WizardUIOptionsChooser",
+	"category" : "SpecUIAddOns-Wizard",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WizardRadioButtonExample1",
+	"type" : "normal"
+}

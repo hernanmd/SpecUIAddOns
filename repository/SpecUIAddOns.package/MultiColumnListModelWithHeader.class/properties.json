@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "HernanMoralesDurand 7/28/2014 00:22",
 	"super" : "MultiColumnListModel",
-	"category" : "SpecUIAddOns-Widgets",
+	"category" : "SpecUIAddOns-Lists",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

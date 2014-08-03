@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "HernanMoralesDurand 7/24/2014 02:16",
 	"super" : "SearchableList",
-	"category" : "SpecUIAddOns-Widgets",
+	"category" : "SpecUIAddOns-Lists",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
