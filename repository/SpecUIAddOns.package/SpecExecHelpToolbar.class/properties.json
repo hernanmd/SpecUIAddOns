@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "HernanMoralesDurand 8/17/2014 17:52",
+	"super" : "SpecExecToolbar",
+	"category" : "SpecUIAddOns-Toolbars",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"helpButton",
+		"helpAction"
+	],
+	"name" : "SpecExecHelpToolbar",
+	"type" : "normal"
+}
