@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "HernanMoralesDurand 8/17/2014 19:50",
+	"super" : "ComposableModel",
+	"category" : "SpecUIAddOns-Toolbars",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"nextButton",
+		"nextAction",
+		"previousButton",
+		"previousAction",
+		"nextLabel",
+		"previousLabel"
+	],
+	"name" : "PreviousNextToolbar",
+	"type" : "normal"
+}
