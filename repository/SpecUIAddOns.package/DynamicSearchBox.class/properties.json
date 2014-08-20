@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "HernanMoralesDurand 8/18/2014 20:54",
+	"super" : "DynamicComposableModel",
+	"category" : "SpecUIAddOns-GrowableList",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"model",
+		"initialExtent",
+		"validated",
+		"propertyValue",
+		"conditionValue",
+		"queryValue",
+		"validateTripletBlock",
+		"status"
+	],
+	"name" : "DynamicSearchBox",
+	"type" : "normal"
+}

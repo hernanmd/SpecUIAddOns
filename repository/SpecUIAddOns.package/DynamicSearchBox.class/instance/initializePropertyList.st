@@ -1,0 +1,12 @@
+initialization
+initializePropertyList
+
+	self propertyList
+		items: self defaultProperties;
+		whenSelectedItemChanged: [ : selection | 
+			(selection notNil and: [ selection isValidProperty ])
+				ifTrue: [ 
+					self owner setNewQuery.
+					self comparatorsList items: selection comparators.
+					"self explanation: self selectedProperty explanation"
+					self  ]. ]

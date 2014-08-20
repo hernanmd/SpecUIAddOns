@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "HernanMoralesDurand 6/18/2014 21:50",
+	"super" : "DynamicComposableModel",
+	"category" : "SpecUIAddOns-GrowableList",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"collection",
+		"addButton",
+		"newFieldId"
+	],
+	"name" : "GrowableListWindow",
+	"type" : "normal"
+}
