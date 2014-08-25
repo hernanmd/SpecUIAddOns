@@ -1,0 +1,4 @@
+accessing
+displayString
+
+	^ self items

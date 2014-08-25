@@ -7,3 +7,5 @@ model := MultiColumnListModelWithHeader new
 model 
     whenSelectionChanged: [ model getIndex  =  1 ifTrue: [model setIndex:0] ];
     openWithSpec. 
+
+ToDo:  Fix the #addHeader: send order problem (see BlastQBSavedBlasts for details)
