@@ -2,5 +2,5 @@ initialization
 instantiateWidgets
 
 	self instantiateModels: #(	
-		listModel 	MultiColumnListModelWithHeader
+		listModel 	PCTListModel
 		searchModel 	TextInputFieldModel ).
