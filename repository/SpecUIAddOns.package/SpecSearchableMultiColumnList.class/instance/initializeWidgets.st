@@ -1,9 +1,7 @@
 initialize
 initializeWidgets
 
-	self instantiateModels: #(	
-		listModel 	#MultiColumnListModel
-		searchModel 	TextInputFieldModel ).
+	self instantiateWidgets.
 	searchModel 
 		isCodeCompletionAllowed: false;
 		entryCompletion: nil;		

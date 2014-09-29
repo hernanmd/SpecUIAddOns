@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SpecSearchableMultiColumnList",
+	"category" : "SpecUIAddOns-Lists",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpecSearchableMultiColumnListWithHeader",
+	"type" : "normal"
+}
