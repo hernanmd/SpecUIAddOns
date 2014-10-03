@@ -2,5 +2,5 @@ initialize
 instantiateWidgets
 
 	self instantiateModels: #(	
-		listModel 	PCTListModel
+		listModel 	MultiColumnListModel
 		searchModel 	TextInputFieldModel ).
