@@ -2,4 +2,5 @@
 updateList
 	"Refresh the list"
 	
-	self listModel refreshListItems
+	self listModel resetSelection.
+	self listModel refreshListItems.
