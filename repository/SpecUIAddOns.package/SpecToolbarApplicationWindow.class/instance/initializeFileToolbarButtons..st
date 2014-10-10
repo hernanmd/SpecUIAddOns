@@ -1,4 +1,5 @@
-initialize
+initialization
 initializeFileToolbarButtons: group
-
-	self subclassResponsibility
+	" Do nothing "
+	
+	^ group

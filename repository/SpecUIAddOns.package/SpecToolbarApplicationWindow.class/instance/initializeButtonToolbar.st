@@ -1,4 +1,4 @@
-initialize
+initialization
 initializeButtonToolbar
 
 	toolbar := self instantiate: SpecExecToolbar.
