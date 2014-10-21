@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HernanMoralesDurand 10/21/2014 17:26",
+	"super" : "WindowModel",
+	"category" : "SpecUIAddOns-Widgets",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"contents"
+	],
+	"name" : "PureDialogWindowModel",
+	"type" : "normal"
+}
