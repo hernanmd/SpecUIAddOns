@@ -2,5 +2,5 @@
 openDialogWithOwner: anObject
 
 	^ (self owner: anObject)
-		openDialogWithSpec modalRelativeTo: self currentWorld;
+		openAppDialogWithSpec modalRelativeTo: self currentWorld;
 		yourself

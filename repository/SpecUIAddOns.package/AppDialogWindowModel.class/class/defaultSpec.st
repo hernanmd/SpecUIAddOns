@@ -2,5 +2,5 @@ specs
 defaultSpec
 	<spec>
 	
-	^ #(DialogWindowAdapter
+	^ #(AppDialogWindowAdapter
 		adapt: #(model))

@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "HernanMoralesDurand 10/21/2014 17:26",
+	"commentStamp" : "HernanMoralesDurand 10/21/2014 22:03",
 	"super" : "WindowModel",
 	"category" : "SpecUIAddOns-Widgets",
 	"classinstvars" : [ ],
@@ -8,6 +8,6 @@
 	"instvars" : [
 		"contents"
 	],
-	"name" : "PureDialogWindowModel",
+	"name" : "AppDialogWindowModel",
 	"type" : "normal"
 }
