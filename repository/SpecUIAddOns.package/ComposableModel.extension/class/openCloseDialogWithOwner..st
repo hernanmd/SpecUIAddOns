@@ -2,5 +2,6 @@
 openCloseDialogWithOwner: anObject
 
 	^ (self owner: anObject)
-		openCloseAppDialogWithSpec modalRelativeTo: self currentWorld;
+		openCloseAppDialogWithSpec modalRelativeTo: anObject specModalParent;
+		centered;		
 		yourself
