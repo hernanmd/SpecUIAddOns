@@ -10,8 +10,8 @@ initializeBindings
 		at: #LabelAdapter				put: #MorphicLabelAdapter;
 		at: #ListAdapter				put: #MorphicListAdapter;
 		at: #IconListAdapter			put: #MorphicIconListAdapter;
-		at: #ImageAdapter			put: #MorphicImageAdapter;
-		at: #MultiColumnListAdapter	put: #MorphicMultiColumnListAdapter;
+		at: #ImageAdapter				put: #MorphicImageAdapter;
+		at: #MultiColumnListAdapter		put: #MorphicMultiColumnListAdapter;
 		at: #MenuAdapter				put: #MorphicMenuAdapter;
 		at: #MenuGroupAdapter		put: #MorphicMenuGroupAdapter;
 		at: #MenuItemAdapter			put: #MorphicMenuItemAdapter;
@@ -26,7 +26,8 @@ initializeBindings
 		at: #TreeColumnAdapter		put: #MorphicTreeColumnAdapter;
 		at: #TreeNodeAdapter			put: #MorphicTreeNodeAdapter;
 		at: #WindowAdapter			put: #MorphicWindowAdapter;
-		at: #TickingWindowAdapter	put: #MorphicTickingWindowAdapter;
+		at: #TickingWindowAdapter		put: #MorphicTickingWindowAdapter;
 		at: #DialogWindowAdapter		put: #MorphicDialogWindowAdapter;
 		at: #AppDialogWindowAdapter	put: #MorphicAppDialogWindowAdapter;
+		at: #AppCloseDialogWindowAdapter	put: #MorphicAppCloseDialogWindowAdapter;			
 		yourself
