@@ -2,4 +2,4 @@
 specModalParent
 	" Receiver can be a modal parent, answer the receiver "
 
-	^ self
+	^ self window
