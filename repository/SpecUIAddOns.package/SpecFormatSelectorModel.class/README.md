@@ -1,0 +1,1 @@
+SpecFormatSelectorModel new openWithSpec.

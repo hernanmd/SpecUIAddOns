@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "HernanMoralesDurand 11/3/2014 01:38",
+	"super" : "ComposableModel",
+	"category" : "SpecUIAddOns-Lists",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"exportLabel",
+		"exportToolbar",
+		"formatList",
+		"formats"
+	],
+	"name" : "SpecFormatSelectorModel",
+	"type" : "normal"
+}
