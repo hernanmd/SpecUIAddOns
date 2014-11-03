@@ -5,7 +5,7 @@ initializeWidgets
 	self instantiateModels: #(
 		exportLabel LabelModel
 		exportToolbar SpecExecHelpToolbar 
-		formatList SearchableTree).
+		formatList TreeModel).
 	self initializeExportButton.
 	self exportLabel text: 'Format List'.
 	self formatList 

@@ -1,4 +1,4 @@
 private
 initialExtent
 
-	^ 400@ 600
+	^ 200@ 300
