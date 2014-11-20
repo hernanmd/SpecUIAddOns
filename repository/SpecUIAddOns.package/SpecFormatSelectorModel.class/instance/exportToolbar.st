@@ -1,3 +1,0 @@
-accessing
-exportToolbar
-	^ exportToolbar okButton

@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "HernanMoralesDurand 11/20/2014 17:17",
+	"commentStamp" : "HernanMoralesDurand 11/20/2014 17:18",
 	"super" : "SpecSelectorModel",
 	"category" : "SpecUIAddOns-Lists",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SpecFormatSelectorModel",
+	"name" : "SpecVisualizationSelectorModel",
 	"type" : "normal"
 }

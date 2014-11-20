@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "HernanMoralesDurand 11/20/2014 17:18",
+	"super" : "ComposableModel",
+	"category" : "SpecUIAddOns-Lists",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"okButton",
+		"cancelButton",
+		"itemList",
+		"label",
+		"displayItems"
+	],
+	"name" : "SpecSelectorModel",
+	"type" : "normal"
+}

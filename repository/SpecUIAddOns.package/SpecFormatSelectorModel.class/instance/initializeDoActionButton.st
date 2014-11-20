@@ -1,8 +1,8 @@
-instantiation
-initializeExportButton
+initialization
+initializeDoActionButton
 	" Private - Configure the Export button "
 
-	self exportToolbar
+	self okButton
 		label: 'Export ';
 		enabled: true;
 		action: [ 
