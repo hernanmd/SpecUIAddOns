@@ -4,3 +4,4 @@ updateList
 	
 	self listModel resetSelection.
 	self listModel refreshListItems.
+	self changed: #listModel
