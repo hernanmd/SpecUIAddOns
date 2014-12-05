@@ -1,6 +1,5 @@
 private
 visualizeFormat: visualizationName
+	" Delegate to owner the displaying of visualizationName "
 
-	PCTGenBankPieViewComponent 
-		owner: self; 
-		open
+	self owner visualizeFormat: visualizationName.
