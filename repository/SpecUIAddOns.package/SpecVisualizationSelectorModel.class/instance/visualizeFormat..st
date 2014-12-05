@@ -1,4 +1,6 @@
 private
 visualizeFormat: visualizationName
 
-	self halt.
+	PCTGenBankPieViewComponent 
+		owner: self; 
+		open
