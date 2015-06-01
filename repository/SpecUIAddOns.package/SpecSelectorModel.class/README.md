@@ -1,4 +1,4 @@
-Abstract class grouping selector behavior
+Abstract class grouping list selection behavior.
 
 Instance Variables
 	cancelButton:		<Object>
