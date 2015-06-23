@@ -5,5 +5,4 @@ initializePresenter
 		text :=  searchModel getText asLowercase.
 		text isEmpty
 			ifTrue: [ listModel resetFilteringBlock ]
-			ifFalse: [ listModel filteringBlock: [:col | col 
-				select: [: e | e includesNameBeginsWith: searchModel getText asLowercase ]]]]
+			ifFalse: [ listModel filteringBlock: self filteringBlock ]]
