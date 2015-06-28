@@ -1,6 +1,7 @@
 initialization
 initialize
+	" Private - See superimplementor's comment "
 
-	previousAction := [ true ] asReactiveVariable.
-	nextAction := [ true ] asReactiveVariable.
+	previousAction := [ true ] asValueHolder.
+	nextAction := [ true ] asValueHolder.
 	super initialize.
