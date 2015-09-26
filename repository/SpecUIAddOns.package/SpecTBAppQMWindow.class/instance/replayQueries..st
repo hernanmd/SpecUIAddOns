@@ -1,5 +1,5 @@
 actions
 replayQueries: qbQueries
-
-	qbQueries do: [ : qbQuery |
-		self replayQuery: qbQuery  ]
+	" Private - Regenerate receiver's queries in qbQueries "
+	
+	qbQueries do: [ : qbQuery | self replayQuery: qbQuery  ]

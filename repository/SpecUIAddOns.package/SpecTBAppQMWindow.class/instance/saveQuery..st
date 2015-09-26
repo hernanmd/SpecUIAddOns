@@ -1,6 +1,6 @@
 menu
 saveQuery: quitBoolean
-	" Private - User requested to save the receiver's query in a .bq (Blast Query) file "
+	" Private - User requested to save the receiver's query in a query file "
 
 	self growableList hasValidQuery
 		ifTrue: [  self saveUserQuery ]
