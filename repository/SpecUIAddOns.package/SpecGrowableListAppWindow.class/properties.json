@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HernanMoralesDurand 9/26/2015 20:37",
+	"super" : "SpecGrowableListWindow",
+	"category" : "SpecUIAddOns-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"listManager"
+	],
+	"name" : "SpecGrowableListAppWindow",
+	"type" : "normal"
+}
