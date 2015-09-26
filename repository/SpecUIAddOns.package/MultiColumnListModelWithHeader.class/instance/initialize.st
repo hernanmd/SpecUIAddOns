@@ -3,4 +3,4 @@ initialize
 	" Notice listHolder change "
 
 	super initialize.
-	listHolder := self collectionClass new asValueHolder.
+	listHolder := self collectionClass new asReactiveVariable.

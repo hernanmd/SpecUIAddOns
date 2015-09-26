@@ -1,3 +1,3 @@
 accessing
 label: aText
-	label label: aText
+	label text: aText

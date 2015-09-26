@@ -1,10 +1,7 @@
 *SpecUIAddOns
 openDialogWithOwner: anObject
 
-	| widget |
-	
-	widget := self owner: anObject.
-	(widget openDialogWithSpec: #defaultSpec) modalRelativeTo: self currentWorld.
-	^ widget 
+	^ (self owner: anObject)
+		openAppDialogWithSpec modalRelativeTo: self currentWorld;
 		centered;
-		value
+		yourself

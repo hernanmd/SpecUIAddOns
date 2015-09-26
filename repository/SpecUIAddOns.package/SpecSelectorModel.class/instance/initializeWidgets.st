@@ -8,7 +8,7 @@ initializeWidgets
 		cancelButton ButtonModel
 		itemList TreeModel).
 	self initializeButtons.
-	self label label: self labelText.
+	self label text: self labelText.
 	self itemList 
 		beCheckList;
 		autoMultiSelection: false;
