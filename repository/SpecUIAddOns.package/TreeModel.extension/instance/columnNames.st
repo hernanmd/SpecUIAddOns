@@ -1,3 +1,3 @@
 *SpecUIAddOns
 columnNames
-	^ self columns collect: #headerLabel
+	^ (self columns collect: #headerLabel) asSet

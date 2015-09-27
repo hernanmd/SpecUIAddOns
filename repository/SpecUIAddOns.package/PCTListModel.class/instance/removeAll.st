@@ -2,7 +2,7 @@ removing
 removeAll
 	" Remove each element of the receiver "
 	
-	listHolder := self collectionClass new asReactiveVariable.
+	listHolder := self collectionClass new asValueHolder.
 	listItemsCache := nil.
-	self widget removeAll.
+	self widget ifNotNilDo: [ : w | w removeAll ].
 	self update: #getList.
