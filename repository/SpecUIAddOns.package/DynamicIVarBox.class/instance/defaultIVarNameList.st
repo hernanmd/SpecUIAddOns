@@ -1,0 +1,4 @@
+initialization
+defaultIVarNameList
+
+	^ Array new

@@ -1,5 +1,5 @@
 initialization
-initializeSearchBoxModels
+initializeBoxModels
 
 	self instantiateModels:
 			#(#propertyList #DropListModel 

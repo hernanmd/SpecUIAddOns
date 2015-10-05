@@ -7,7 +7,7 @@ dynamicLayout
 		self collection doWithIndex: [ : selector : i | | widget |
 			(widgets includesKey: selector)
 				ifFalse: [ 
-					self instantiateModels: {selector.  self searchBoxClass}.
+					self instantiateModels: {selector.  self listBoxClass}.
 					widget := self perform: selector. ]
 				ifTrue: [ 
 					widget := self widgets at: selector ].

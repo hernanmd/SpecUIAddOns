@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "DynamicComposableModel",
+	"category" : "SpecUIAddOns-GrowableList",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"model",
+		"status",
+		"validateTripletBlock"
+	],
+	"name" : "DynamicGrowableBox",
+	"type" : "normal"
+}

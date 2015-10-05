@@ -1,0 +1,4 @@
+defaults
+defaultQueryManager
+
+	self subclassResponsibility 

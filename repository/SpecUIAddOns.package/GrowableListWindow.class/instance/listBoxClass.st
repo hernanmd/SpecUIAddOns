@@ -1,5 +1,5 @@
 private
-searchBoxClass
+listBoxClass
 	" Private -  See comment in #add "
 
 	^ #DynamicSearchBox
