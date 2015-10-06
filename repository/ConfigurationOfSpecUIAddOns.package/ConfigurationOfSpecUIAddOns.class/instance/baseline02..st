@@ -1,6 +1,6 @@
 baselines
-baseline01: spec
-	<version: '0.1-baseline'>
+baseline02: spec
+	<version: '0.2-baseline'>
 
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
@@ -11,13 +11,12 @@ baseline01: spec
 					versionString: '1.15';
 					repository: 'http://smalltalkhub.com/mc/ObjectProfile/Roassal2/main/' ].
 		spec 
-			package: #SpecUIAddOns with: [
-				spec requires: #('CodeGenerator' ). ];
+			package: #SpecUIAddOns;
 			package: #'SpecUIAddOns-Morphic' with: [
 				spec requires: #(#SpecUIAddOns ). ];
 			package: #'SpecUIAddOns-Roassal2' with: [
-				spec requires: #(#SpecUIAddOns #'SpecUIAddOns-Morphic' ). ].
+				spec requires: #(#SpecUIAddOns #'SpecUIAddOns-Morphic' 'Roassal2' ). ].
 		spec 
-			group: 'Core' with: #();
-			group: 'Morphic' with: #();
-			group: 'All' with: #(). ].
+			group: 'Core' with: #('SpecUIAddOns' );
+			group: 'Morphic' with: #('SpecUIAddOns' 'SpecUIAddOns-Morphic' );
+			group: 'All' with: #('SpecUIAddOns-Roassal2' 'SpecUIAddOns-Morphic' 'SpecUIAddOns' ). ].
