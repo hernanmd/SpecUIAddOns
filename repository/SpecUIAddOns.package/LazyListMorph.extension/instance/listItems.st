@@ -1,3 +1,0 @@
-*SpecUIAddOns
-listItems
-	^ listItems
