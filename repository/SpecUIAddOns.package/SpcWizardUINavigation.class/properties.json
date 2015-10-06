@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HernanMoralesDurand 2/6/2014 19:39",
+	"super" : "ComposableModel",
+	"category" : "SpecUIAddOns-Wizard",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"previousNextToolbar"
+	],
+	"name" : "SpcWizardUINavigation",
+	"type" : "normal"
+}

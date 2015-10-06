@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MorphicWindowAdapter",
+	"category" : "SpecUIAddOns-MorphicAdapters",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpcMorphicAppCloseDialogWindowAdapter",
+	"type" : "normal"
+}

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HernanMoralesDurand 10/27/2014 15:11",
+	"super" : "SpcDialogWindowModel",
+	"category" : "SpecUIAddOns-Widgets",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"toolbar"
+	],
+	"name" : "SpcCloseDialogWindowModel",
+	"type" : "normal"
+}

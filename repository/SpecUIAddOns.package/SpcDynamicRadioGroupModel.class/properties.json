@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HernanMoralesDurand 11/2/2014 19:06",
+	"super" : "DynamicComposableModel",
+	"category" : "SpecUIAddOns-Wizard",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"radioButtons"
+	],
+	"name" : "SpcDynamicRadioGroupModel",
+	"type" : "normal"
+}

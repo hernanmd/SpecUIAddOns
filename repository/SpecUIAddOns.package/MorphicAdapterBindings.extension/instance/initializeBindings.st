@@ -28,6 +28,6 @@ initializeBindings
 		at: #WindowAdapter			put: #MorphicWindowAdapter;
 		at: #TickingWindowAdapter		put: #MorphicTickingWindowAdapter;
 		at: #DialogWindowAdapter		put: #MorphicDialogWindowAdapter;
-		at: #AppDialogWindowAdapter	put: #MorphicAppDialogWindowAdapter;
-		at: #AppCloseDialogWindowAdapter	put: #MorphicAppCloseDialogWindowAdapter;			
+		at: #AppDialogWindowAdapter	put: #SpcMorphicAppDialogWindowAdapter;
+		at: #AppCloseDialogWindowAdapter	put: #SpcMorphicAppCloseDialogWindowAdapter;			
 		yourself

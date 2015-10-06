@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 9/2/2015 00:29",
+	"super" : "SpcSelectorModel",
+	"category" : "SpecUIAddOns-Lists",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpcFormatSelectorModel",
+	"type" : "normal"
+}

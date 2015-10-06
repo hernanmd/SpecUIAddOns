@@ -1,0 +1,4 @@
+override
+labelText
+
+	^ 'Enter text'

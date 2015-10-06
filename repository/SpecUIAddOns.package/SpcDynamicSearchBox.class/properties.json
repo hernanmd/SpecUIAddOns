@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "HernanMoralesDurand 8/18/2014 20:54",
+	"super" : "SpcDynamicGrowableBox",
+	"category" : "SpecUIAddOns-GrowableList",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"validated",
+		"propertyValue",
+		"conditionValue",
+		"queryValue"
+	],
+	"name" : "SpcDynamicSearchBox",
+	"type" : "normal"
+}

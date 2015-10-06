@@ -1,0 +1,4 @@
+initialization
+labelText
+
+	self subclassResponsibility 

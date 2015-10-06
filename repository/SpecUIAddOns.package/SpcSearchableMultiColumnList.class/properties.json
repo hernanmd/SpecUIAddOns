@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 6/23/2015 12:46",
+	"super" : "SearchableList",
+	"category" : "SpecUIAddOns-Lists",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpcSearchableMultiColumnList",
+	"type" : "normal"
+}

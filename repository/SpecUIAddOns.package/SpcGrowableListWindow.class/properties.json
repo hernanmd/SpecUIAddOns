@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "HernanMoralesDurand 9/26/2015 20:04",
+	"super" : "SpcToolbarApplicationWindow",
+	"category" : "SpecUIAddOns-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"growableList",
+		"newQueryStatus",
+		"savedResults",
+		"savedQueries"
+	],
+	"name" : "SpcGrowableListWindow",
+	"type" : "normal"
+}

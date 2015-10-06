@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "HernanMoralesDurand 2/6/2014 21:54",
+	"super" : "SpcWizardUINavigation",
+	"category" : "SpecUIAddOns-Wizard",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"radioButton1",
+		"radioButton2"
+	],
+	"name" : "SpcWizardUIOptionsChooser",
+	"type" : "normal"
+}

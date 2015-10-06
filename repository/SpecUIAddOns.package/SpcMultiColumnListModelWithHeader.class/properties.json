@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "HernanMoralesDurand 9/28/2014 17:56",
+	"super" : "MultiColumnListModel",
+	"category" : "SpecUIAddOns-Lists",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"header",
+		"beNumbered"
+	],
+	"name" : "SpcMultiColumnListModelWithHeader",
+	"type" : "normal"
+}

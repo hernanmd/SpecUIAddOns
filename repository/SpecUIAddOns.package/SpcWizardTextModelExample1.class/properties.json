@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "HernanMoralesDurand 8/3/2014 01:42",
+	"super" : "SpcWizardUINavigation",
+	"category" : "SpecUIAddOns-Wizard",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"label",
+		"text"
+	],
+	"name" : "SpcWizardTextModelExample1",
+	"type" : "normal"
+}

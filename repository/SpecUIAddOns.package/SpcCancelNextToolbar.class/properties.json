@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 8/17/2014 19:51",
+	"super" : "SpcPreviousNextToolbar",
+	"category" : "SpecUIAddOns-Toolbars",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpcCancelNextToolbar",
+	"type" : "normal"
+}
