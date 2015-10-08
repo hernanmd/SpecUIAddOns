@@ -2,6 +2,6 @@ initialization
 registerNextButtonEvents
 
 	nextButton 
-		label: 'Save';
+		label: 'Next >>';
 		enabled: true;
 		state: false

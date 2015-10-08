@@ -1,4 +1,0 @@
-initialization
-initializeBoxModels
-
-	self subclassResponsibility 
