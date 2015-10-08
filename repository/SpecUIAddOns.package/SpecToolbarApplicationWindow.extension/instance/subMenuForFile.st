@@ -1,3 +1,0 @@
-menu
-subMenuForFile
-	" Do nothing "

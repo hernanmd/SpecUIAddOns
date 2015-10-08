@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "HernanMoralesDurand 10/8/2015 23:25",
+	"super" : "ComposableModel",
+	"category" : "SpecUIAddOns-Lists",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"label",
+		"textField"
+	],
+	"name" : "SpcLabeledTextField",
+	"type" : "normal"
+}

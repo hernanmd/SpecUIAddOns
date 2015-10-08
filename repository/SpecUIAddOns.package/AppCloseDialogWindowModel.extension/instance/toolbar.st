@@ -1,4 +1,0 @@
-protocol
-toolbar
-
-	^ toolbar value
