@@ -9,7 +9,7 @@ Usage examples
 
 | m |
 m := DynamicComposableModel new.
-m instantiateModels: #(item DynamicSearchBox  ok OkToolbar).
+m instantiateModels: #(item SpcDynamicSearchBox  ok OkToolbar).
 m ok okAction: [ m window delete ].
 m openWithSpecLayout: (SpecLayout composed
 	newColumn: [: c | 

@@ -2,7 +2,7 @@ Accept String items
 
 Usage Example:
 
-SpecSearchableMultiColumnList new 
+SpcSingleSearchableMultiColumnList new 
 	items: { 
 		'Platini' .
 		'Maradona' .

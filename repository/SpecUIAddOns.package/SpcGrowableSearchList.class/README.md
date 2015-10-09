@@ -2,7 +2,7 @@ Examples
 
 | m |
 m := DynamicComposableModel new.
-m instantiateModels: #(list GrowableSearchList ok OkToolbar).
+m instantiateModels: #(list SpcGrowableSearchList ok OkToolbar).
 m ok okAction: [ m window delete ].
 m openWithSpecLayout: (SpecLayout composed
 	newColumn: [: c | 

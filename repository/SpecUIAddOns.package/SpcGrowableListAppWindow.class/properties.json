@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "HernanMoralesDurand 9/26/2015 20:37",
 	"super" : "SpcGrowableListWindow",
-	"category" : "SpecUIAddOns-Core",
+	"category" : "SpecUIAddOns-GrowableList",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
