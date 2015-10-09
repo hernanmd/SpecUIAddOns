@@ -1,4 +1,0 @@
-override
-labelText
-
-	^ 'Enter text'
