@@ -1,4 +1,6 @@
 initialization
 initializePresenter
+	" Private - See superimplementor's comment "
 
-	firstButton action: self firstButtonActionBlock
+	super initializePresenter.
+	self registerFirstButtonButtonEvents.

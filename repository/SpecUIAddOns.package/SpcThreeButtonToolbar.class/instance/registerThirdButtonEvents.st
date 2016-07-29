@@ -1,7 +1,4 @@
 initialization
 registerThirdButtonEvents
 
-	self thirdButton 
-		label: 'Help';
-		enabled: true;
-		state: false
+	self thirdButton action: self thirdButtonActionBlock.

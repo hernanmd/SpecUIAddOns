@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "HernanMoralesDurand 7/29/2016 04:51",
+	"super" : "SpcOneButtonToolbar",
+	"category" : "SpecUIAddOns-Toolbars",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"secondButton",
+		"secondButtonAction",
+		"secondButtonLabel"
+	],
+	"name" : "SpcTwoButtonToolbar",
+	"type" : "normal"
+}

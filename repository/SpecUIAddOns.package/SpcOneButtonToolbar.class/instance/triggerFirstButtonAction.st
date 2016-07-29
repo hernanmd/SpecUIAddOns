@@ -1,4 +1,4 @@
 api
-triggerfirstButtonAction
+triggerFirstButtonAction
 
 	self firstButtonActionBlock value

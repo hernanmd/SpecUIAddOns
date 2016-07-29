@@ -1,12 +1,13 @@
 initialization
 initializeWidgets
+	" Private - See superimplementor's comment "
 
 	self instantiateModels: #(
 		label			LabelModel
 		textField		TextInputFieldModel).
 
 	textField
-		ghostText: 'input';
+		ghostText: self ghostText;
 		acceptBlock: [ self triggerOkAction ];
 		entryCompletion: nil;
 		acceptOnCR: true.

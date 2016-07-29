@@ -1,0 +1,13 @@
+initialization
+initializeWidgets
+	" Private - See superimplementor's comment "
+	
+	super initializeWidgets.
+	self instantiateModels:  #( secondButton ButtonModel ).
+	
+	self secondButton 
+		label: self secondButtonLabel;
+		enabled: true;
+		state: false.	
+
+	self focusOrder	add: secondButton
