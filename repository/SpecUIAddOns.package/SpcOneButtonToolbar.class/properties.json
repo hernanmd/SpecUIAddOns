@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "HernanMoralesDurand 7/19/2016 02:38",
+	"super" : "ComposableModel",
+	"category" : "SpecUIAddOns-Toolbars",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"firstButton",
+		"firstButtonAction",
+		"firstButtonLabel"
+	],
+	"name" : "SpcOneButtonToolbar",
+	"type" : "normal"
+}

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "HernanMoralesDurand 7/19/2016 02:30",
+	"super" : "SpcExecToolbar",
+	"category" : "SpecUIAddOns-Toolbars",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"thirdButton",
+		"thirdButtonAction"
+	],
+	"name" : "SpcThreeButtonToolbar",
+	"type" : "normal"
+}

@@ -1,0 +1,1 @@
+SpcLabeledTextFieldWithButton new openWithSpec.

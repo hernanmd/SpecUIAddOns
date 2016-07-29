@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HernanMoralesDurand 7/21/2016 04:40",
+	"super" : "SpcLabeledTextField",
+	"category" : "SpecUIAddOns-Lists",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"button"
+	],
+	"name" : "SpcLabeledTextFieldWithButton",
+	"type" : "normal"
+}
