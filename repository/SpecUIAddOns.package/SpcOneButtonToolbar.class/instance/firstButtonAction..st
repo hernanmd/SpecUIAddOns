@@ -1,4 +1,4 @@
 api
-firstButtonAction: aBlock
+firstButtonAction: aBlockClosure
 
-	^ firstButtonAction value: aBlock
+	^ firstButtonAction value: aBlockClosure

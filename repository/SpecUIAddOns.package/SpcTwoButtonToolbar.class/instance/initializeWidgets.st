@@ -6,8 +6,7 @@ initializeWidgets
 	self instantiateModels:  #( secondButton ButtonModel ).
 	
 	self secondButton 
-		label: self secondButtonLabel;
 		enabled: true;
 		state: false.	
 
-	self focusOrder	add: secondButton
+	self focusOrder	add: secondButton.

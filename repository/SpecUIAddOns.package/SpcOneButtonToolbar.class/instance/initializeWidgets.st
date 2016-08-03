@@ -3,7 +3,7 @@ initializeWidgets
 	" Private - See superimplementor's comment "
 	
 	self instantiateModels:  #( firstButton ButtonModel ).
-	self registerFirstButtonButtonEvents.
+	self registerFirstButtonEvents.
 	
 	self firstButton 
 		label: self firstButtonLabel;

@@ -1,4 +1,4 @@
 initialization
-registerFirstButtonButtonEvents
+registerFirstButtonEvents
 
 	self firstButton action: self firstButtonActionBlock

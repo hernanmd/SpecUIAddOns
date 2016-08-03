@@ -1,3 +1,5 @@
 accessing
-thirdButtonLabel: anObject
-	thirdButtonLabel := anObject
+thirdButtonLabel: aString
+	" Set the receiver's button label to be aString "
+
+	self thirdButton label: aString

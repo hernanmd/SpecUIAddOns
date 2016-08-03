@@ -1,3 +1,4 @@
 accessing
-secondButtonAction: anObject
-	secondButtonAction := anObject
+secondButtonAction: aBlockClosure
+
+	secondButtonAction := aBlockClosure

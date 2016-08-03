@@ -1,3 +1,4 @@
 accessing
-thirdButtonAction: anObject
-	thirdButtonAction := anObject
+thirdButtonAction: aBlockClosure
+
+	thirdButtonAction := aBlockClosure

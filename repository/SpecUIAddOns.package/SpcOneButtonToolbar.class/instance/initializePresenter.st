@@ -3,4 +3,4 @@ initializePresenter
 	" Private - See superimplementor's comment "
 
 	super initializePresenter.
-	self registerFirstButtonButtonEvents.
+	self registerFirstButtonEvents.
