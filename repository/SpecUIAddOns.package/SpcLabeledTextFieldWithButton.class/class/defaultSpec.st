@@ -7,6 +7,6 @@ defaultSpec
 			c 
 				add: #label;
 				add: #textField;
-				add: #button ]
+				add: #button width: self buttonWidth ]
 			height: self toolbarHeight;
 		yourself

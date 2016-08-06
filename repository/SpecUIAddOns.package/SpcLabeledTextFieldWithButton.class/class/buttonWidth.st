@@ -1,0 +1,4 @@
+specs
+buttonWidth
+		
+	^ 70
