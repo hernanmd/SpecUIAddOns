@@ -1,10 +1,7 @@
-Toolbar with additional second button
-
-Public API and Key Messages
-
-- message one   
-- message two 
-- what is the way to create instances is a plus.
+SpcTwoButtonToolbar new 
+	firstButtonLabel: 'Label A';
+	secondButtonLabel:  'Label B';
+	openWithSpec.
 
    One simple example is simply gorgeous.
  
