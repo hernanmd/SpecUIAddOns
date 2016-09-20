@@ -10,6 +10,11 @@ baseline01: spec
 					className: #ConfigurationOfRoassal2;
 					versionString: '1.15';
 					repository: 'http://smalltalkhub.com/mc/ObjectProfile/Roassal2/main/' ].
+		spec project: 'CodeGenerator' with: [
+				spec
+					className: #ConfigurationOfCodeGenerator;
+					versionString: 'development';
+					repository: 'http://smalltalkhub.com/mc/hernan/SpecUIAddOns/main/' ].
 		spec 
 			package: #SpecUIAddOns with: [
 				spec requires: #('CodeGenerator' ). ];
