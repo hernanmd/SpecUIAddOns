@@ -8,7 +8,7 @@ baseline02: spec
 		spec project: 'Roassal2' with: [
 				spec
 					className: #ConfigurationOfRoassal2;
-					versionString: '1.15';
+					versionString: '1.38';
 					repository: 'http://smalltalkhub.com/mc/ObjectProfile/Roassal2/main/' ].
 		spec 
 			package: #SpecUIAddOns;
