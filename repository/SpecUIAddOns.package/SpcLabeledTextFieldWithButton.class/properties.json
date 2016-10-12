@@ -2,7 +2,9 @@
 	"commentStamp" : "HernanMoralesDurand 7/29/2016 02:27",
 	"super" : "SpcLabeledTextField",
 	"category" : "SpecUIAddOns-Lists",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"buttonWidth"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [

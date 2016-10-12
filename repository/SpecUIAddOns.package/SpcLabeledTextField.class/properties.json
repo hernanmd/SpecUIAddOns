@@ -2,7 +2,9 @@
 	"commentStamp" : "HernanMoralesDurand 7/29/2016 02:25",
 	"super" : "ComposableModel",
 	"category" : "SpecUIAddOns-Lists",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"labelWidth"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [

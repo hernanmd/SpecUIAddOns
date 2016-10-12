@@ -5,7 +5,7 @@ defaultSpec
 	^ SpecColumnLayout composed
 		newRow: [ : c  |
 			c 
-				add: #label;
+				add: #label width: self labelWidth;
 				add: #textField ]
 			height: self toolbarHeight;
 		yourself

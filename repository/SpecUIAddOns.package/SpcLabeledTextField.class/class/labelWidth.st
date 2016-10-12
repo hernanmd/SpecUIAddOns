@@ -1,6 +1,6 @@
 specs
-buttonWidth
+labelWidth
 	" Answer a <Number> with the default label width "
 
-	^ buttonWidth 
-		ifNil: [ buttonWidth := 70 ]
+	^ labelWidth
+		ifNil: [ labelWidth := 80 ]
