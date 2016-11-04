@@ -1,0 +1,4 @@
+initialization
+openFileMenuItemString
+
+	^ 'Open File'

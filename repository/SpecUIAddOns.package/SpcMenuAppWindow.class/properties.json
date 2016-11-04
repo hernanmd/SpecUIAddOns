@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 11/3/2016 21:20",
+	"super" : "SpcToolbarApplicationWindow",
+	"category" : "SpecUIAddOns-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpcMenuAppWindow",
+	"type" : "normal"
+}
