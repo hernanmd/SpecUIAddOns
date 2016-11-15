@@ -7,6 +7,6 @@ initializeMainToolbar
 			self initializeToolsSubMenu: group. 
 			self initializeHelpSubMenu: group ];
 		addGroup: [ : group |
-			self initializeFileToolbarButtons: group.			
+			"self initializeFileToolbarButtons: group.			"
 			self initializeActionsButtons: group ].
 	mainToolbar applyTo: self.
