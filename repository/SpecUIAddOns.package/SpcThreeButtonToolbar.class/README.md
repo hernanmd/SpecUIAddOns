@@ -1,10 +1,10 @@
 Toolbar with additional third button
 
 SpcThreeButtonToolbar basicNew 
+	initialize;
 	firstButtonLabel: 'First';
 	secondButtonLabel: 'Second';
 	thirdButtonLabel: 'Third';
-	initialize;
 	openWithSpec.
 
 Internal Representation and Key Implementation Points.

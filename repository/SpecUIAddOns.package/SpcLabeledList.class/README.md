@@ -4,7 +4,7 @@ If you subclass you must implement #labelText to answer a <String> with the labe
 
 SpcLabeledList new
 	items: (1 to: 10) asArray;
-	label: 'Example SpcLabeledList'
+	label: 'Example SpcLabeledList';
 	openWithSpec.
 
 Instance Variables
