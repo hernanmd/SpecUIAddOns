@@ -1,4 +1,4 @@
 accessing
-labelText
+defaultLabelText
 
 	^  'Format List'

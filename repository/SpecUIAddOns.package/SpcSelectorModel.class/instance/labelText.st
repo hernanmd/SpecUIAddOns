@@ -1,4 +1,5 @@
 initialization
 labelText
 
-	self subclassResponsibility 
+	^ labelText
+		ifNil: [ labelText := self defaultLabelText ]

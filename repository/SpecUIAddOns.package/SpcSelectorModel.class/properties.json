@@ -10,7 +10,8 @@
 		"cancelButton",
 		"itemList",
 		"label",
-		"displayItems"
+		"displayItems",
+		"labelText"
 	],
 	"name" : "SpcSelectorModel",
 	"type" : "normal"
