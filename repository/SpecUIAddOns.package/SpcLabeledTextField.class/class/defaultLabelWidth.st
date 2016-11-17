@@ -1,0 +1,4 @@
+specs
+defaultLabelWidth
+
+	^ 80
