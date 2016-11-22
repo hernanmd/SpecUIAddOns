@@ -1,4 +1,0 @@
-accessing
-labelText
-
-	^  'Format List'

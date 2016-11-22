@@ -1,5 +1,5 @@
 specs
 labelWidth: aNumber
-	" Set aNumber the default label width "
+	" Answer a <Number> with the default label width "
 
-	^ labelWidth := aNumber
+	^ labelWidth := aNumber 
