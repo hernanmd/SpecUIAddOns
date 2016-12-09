@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "HernanMoralesDurand 12/9/2016 03:34",
+	"super" : "SpcLabeledList",
+	"category" : "SpecUIAddOns-Lists",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"buttonAdd",
+		"buttonRename",
+		"buttonRemove"
+	],
+	"name" : "SpcLabeledActionsList",
+	"type" : "normal"
+}
