@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "SpcMultiColumnListModelWithHeader",
+	"super" : "ListModel",
 	"category" : "SpecUIAddOns-Lists",
 	"classinstvars" : [ ],
 	"pools" : [ ],
