@@ -7,4 +7,4 @@ selectItems
 			beCheckList;
 			autoMultiSelection: true;
 			multiSelection: true;
-			openDialogWindowIn: World title: 'Seleccionar marcadores'
+			openDialogWindowIn: World title: self title

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SpcLabeledTextFieldSelector",
+	"category" : "SpecUIAddOns-Lists",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"subsets"
+	],
+	"name" : "SpcLabeledSubsetSelector",
+	"type" : "normal"
+}
