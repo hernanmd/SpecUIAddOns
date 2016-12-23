@@ -8,7 +8,8 @@
 	"instvars" : [
 		"items",
 		"ownerAction",
-		"textFieldDelimiter"
+		"textFieldDelimiter",
+		"updateBlock"
 	],
 	"name" : "SpcLabeledTextFieldSelector",
 	"type" : "normal"

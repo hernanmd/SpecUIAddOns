@@ -4,5 +4,5 @@ items: anObject
 
 	items := anObject.
 	items ifNotNil: [ 
-		self textField text: (items joinUsing: self textFieldDelimiter) ]
+		self textField text: (self updateBlock value: items) ]
 	

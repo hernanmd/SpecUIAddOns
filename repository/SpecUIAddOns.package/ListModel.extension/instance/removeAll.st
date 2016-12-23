@@ -2,7 +2,7 @@
 removeAll
 	" Remove each element of the receiver "
 	
-	listHolder := Array new asValueHolder.
+	listHolder := self collectionClass new asValueHolder.
 	listItemsCache := nil.
 	self widget removeAll.
 	self update: #getList.
