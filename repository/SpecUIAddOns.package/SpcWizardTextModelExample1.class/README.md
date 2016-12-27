@@ -1,3 +1,3 @@
-WizardTextModelExample1 open
+SpcWizardTextModelExample1 open
 
 

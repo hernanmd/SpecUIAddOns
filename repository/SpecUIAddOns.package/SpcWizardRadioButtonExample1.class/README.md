@@ -1,2 +1,2 @@
-WizardRadioButtonExample1 open
+SpcWizardRadioButtonExample1 open
 

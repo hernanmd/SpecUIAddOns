@@ -1,6 +1,8 @@
 initialization
 models
 
-	^ #(label LabelModel 
-	text TextInputFieldModel
-	previousNextToolbar #SpcPreviousNextToolbar)
+	^ #(
+		label 						LabelModel 
+		text 						TextInputFieldModel
+		previousNextToolbar 	SpcPreviousNextToolbar
+		)

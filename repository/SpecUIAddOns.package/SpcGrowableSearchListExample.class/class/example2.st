@@ -5,10 +5,10 @@ example2
 
 	m := DynamicComposableModel new.
 	m instantiateModels: #(
-		tabmgr	TabManagerModel 
+		tabmgr		TabManagerModel 
 		"button ButtonModel" 
-		list		SpcGrowableSearchList 
-		ok 		OkToolbar).
+		list		SpcGrowableSearchListExample 
+		ok 			OkToolbar).
 
 	rsTab := TabModel owner: m.
 	rsTab

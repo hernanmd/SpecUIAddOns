@@ -1,0 +1,4 @@
+*SpecUIAddOns
+isValidSpcProperty
+
+	^ self notEmpty

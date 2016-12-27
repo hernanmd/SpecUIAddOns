@@ -1,4 +1,4 @@
 specs
 title
 
-	^ 'Territory Builder'
+	^ 'Example Title'

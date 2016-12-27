@@ -1,12 +1,6 @@
-Accept String items
+Multi-column list with a search bar on the top.
 
-Usage Example:
+See class side for examples.
 
-SpcSingleSearchableMultiColumnList new 
-	items: { 
-		'Platini' .
-		'Maradona' .
-		'Cruyff' . 
-		'Garrincha' };
-	displayBlock: [ : e | { e asString . e size asString } ];	
-	openWithSpec
+
+

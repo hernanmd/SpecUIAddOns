@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SpcGrowableSearchList",
+	"category" : "SpecUIAddOns-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpcGrowableSearchListExample",
+	"type" : "normal"
+}

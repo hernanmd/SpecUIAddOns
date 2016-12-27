@@ -1,5 +1,9 @@
 initialization
 initializeWidgets
 
-	self instantiateModels: #(firstQuery #SpcDynamicSearchBox).
+	self instantiateModels: (
+		Array 
+			with: #firstQuery 
+			with: self listBoxClass
+		).
 	self collection add: #firstQuery
