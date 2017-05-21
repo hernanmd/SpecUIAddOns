@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "HernanMoralesDurand 5/21/2017 02:04",
+	"super" : "ComposableModel",
+	"category" : "SpecUIAddOns-Widgets",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"ftMorph",
+		"ftAdapter"
+	],
+	"name" : "SpcFastTable",
+	"type" : "normal"
+}

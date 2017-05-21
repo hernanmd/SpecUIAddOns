@@ -1,0 +1,3 @@
+accessing
+ftAdapter
+	^ ftAdapter

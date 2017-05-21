@@ -1,5 +1,5 @@
 *SpecUIAddOns
-refreshTree
+refreshWidget
 	" Compatibility "
 	
 	^ self updateTree

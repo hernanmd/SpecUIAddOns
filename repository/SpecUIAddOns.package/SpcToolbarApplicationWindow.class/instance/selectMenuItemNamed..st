@@ -3,4 +3,5 @@ selectMenuItemNamed: aString
 	" Answer a <MenuItemModel> "
 	
 	^ self mainToolbar menuGroups 
-		select: [ : menuItem |menuItem name = aString  ]
+		collect: [ : menuGroup | menuGroup menuItems ]
+		thenSelect: [ : menuItems | menuItems detect: [ : item | item name = aString  ] ]

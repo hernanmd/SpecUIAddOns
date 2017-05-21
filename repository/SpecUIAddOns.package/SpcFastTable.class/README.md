@@ -1,0 +1,1 @@
+SpcaFTAdapter new openWithSpec.
