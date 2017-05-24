@@ -10,7 +10,7 @@ initializeWidgets
 "		onAnnouncement: FTStrongSelectionChanged 
 			do: [ :ann | ('double-click on row: ', (ann selectedRowIndex asString)) crLog ];"
 		explicitFunction;
-		enableFilter;		
+"		enableFilter;		"
 		yourself.
 	ftAdapter := ftMorph asSpecAdapter
 		vSpaceFill;

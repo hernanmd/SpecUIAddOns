@@ -1,7 +1,7 @@
 initialize
 newDataSource: newItems childrenBlock: aBlock
 
-	self ftMorph dataSource: (FTTreeDataSource
+	self ftMorph dataSource: (SpcFTreeDataSource
 		roots: newItems
 		children: aBlock)
 

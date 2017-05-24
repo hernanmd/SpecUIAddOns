@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "FTTreeDataSource",
+	"category" : "SpecUIAddOns-Widgets",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpcFTreeDataSource",
+	"type" : "normal"
+}
