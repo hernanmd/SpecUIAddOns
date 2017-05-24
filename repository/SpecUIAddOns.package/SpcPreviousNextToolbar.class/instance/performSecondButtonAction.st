@@ -1,0 +1,4 @@
+protocol
+performSecondButtonAction
+
+	^ self performCancelButtonAction

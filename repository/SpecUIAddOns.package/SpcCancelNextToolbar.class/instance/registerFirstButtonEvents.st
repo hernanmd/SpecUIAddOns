@@ -1,7 +1,7 @@
 initialization
-registerPreviousButtonEvents
+registerFirstButtonEvents
 
-	previousButton 
+	self firstButton 
 		label: 'Cancel';
 		enabled: true;
 		state: false

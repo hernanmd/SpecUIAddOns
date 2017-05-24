@@ -1,7 +1,7 @@
 protocol
-performPreviousAction
+performCancelButtonAction
 
-	^ previousAction value value == false
+	^ secondButtonAction value value == false
 		ifFalse: [ 
 			owner 
 				ifNil: [ self delete ] 

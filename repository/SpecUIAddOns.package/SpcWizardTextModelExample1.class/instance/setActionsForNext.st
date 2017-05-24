@@ -1,7 +1,7 @@
 override
 setActionsForNext
 
-	self previousNextToolbar nextAction: [ 
+	self toolbar secondButtonAction: [ 
 		self isValidText
 			ifTrue: [ self inform: 'Entered text is valid' ]
 			ifFalse: [ 

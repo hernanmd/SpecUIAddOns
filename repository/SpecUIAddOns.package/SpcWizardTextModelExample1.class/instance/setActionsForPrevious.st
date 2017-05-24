@@ -1,5 +1,4 @@
 override
 setActionsForPrevious
 
-	self previousNextToolbar previousAction: [ 
-		self inform: 'Go back' ].
+	self toolbar firstButtonAction: [ self inform: 'Go back' ].

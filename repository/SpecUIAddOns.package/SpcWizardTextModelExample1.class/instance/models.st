@@ -4,5 +4,5 @@ models
 	^ #(
 		label 						LabelModel 
 		text 						TextInputFieldModel
-		previousNextToolbar 	SpcPreviousNextToolbar
+		#toolbar 	SpcPreviousNextToolbar
 		)
