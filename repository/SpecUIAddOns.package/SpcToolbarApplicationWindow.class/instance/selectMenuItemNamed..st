@@ -1,7 +1,8 @@
 menu
 selectMenuItemNamed: aString
-	" Answer a <MenuItemModel> "
+	" Answer a <Collection> of <MenuGroupModel> "
 	
-	^ self mainToolbar menuGroups 
-		collect: [ : menuGroup | menuGroup menuItems ]
-		thenSelect: [ : menuItems | menuItems detect: [ : item | item name = aString  ] ]
+	| results |
+	(results := self collectSubMenuGroupMenuItems select: [ : mi | mi name = aString ]) size > 1
+		ifTrue: [ self error: 'Two or more menu items has equal names' ].
+	^ results anyOne.
