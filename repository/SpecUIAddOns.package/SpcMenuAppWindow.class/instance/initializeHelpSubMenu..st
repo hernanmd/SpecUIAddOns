@@ -4,6 +4,6 @@ initializeHelpSubMenu: group
 	group
 		addItem: [ : item | 
 			item
-				name: 'Help';
+				name: self helpLabel;
 				icon: Smalltalk ui icons helpIcon;
 				subMenu: self subMenuForHelp ].
