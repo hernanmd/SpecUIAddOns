@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposableModel",
+	"category" : "SpecUIAddOns-Lists",
+	"classinstvars" : [
+		"labelWidth"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"label"
+	],
+	"name" : "SpcLabeledWidget",
+	"type" : "normal"
+}

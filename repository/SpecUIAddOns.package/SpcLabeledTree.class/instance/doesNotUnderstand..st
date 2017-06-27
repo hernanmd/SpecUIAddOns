@@ -1,6 +1,6 @@
 reflective operations
-doesNotUnderstand: aMessage 
-
-	^ self textField 
+doesNotUnderstand: aMessage
+			
+	^ self tree 
 		perform: aMessage selector 
 		withArguments: aMessage arguments

@@ -1,0 +1,4 @@
+defaults
+defaultTextAreaHeight
+
+	^ 50

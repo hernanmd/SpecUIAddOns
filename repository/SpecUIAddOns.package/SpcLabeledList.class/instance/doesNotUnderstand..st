@@ -1,4 +1,4 @@
-accessing
+reflective operations
 doesNotUnderstand: aMessage
 			
 	^ self list 

@@ -1,13 +1,13 @@
 {
-	"commentStamp" : "HernanMoralesDurand 7/29/2016 02:25",
+	"commentStamp" : "",
 	"super" : "SpcLabeledWidget",
 	"category" : "SpecUIAddOns-Lists",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"textField"
+		"textArea"
 	],
-	"name" : "SpcLabeledTextField",
+	"name" : "SpcLabeledTextArea",
 	"type" : "normal"
 }

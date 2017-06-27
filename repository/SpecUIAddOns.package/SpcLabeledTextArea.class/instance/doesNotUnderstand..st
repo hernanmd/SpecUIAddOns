@@ -1,6 +1,6 @@
 reflective operations
 doesNotUnderstand: aMessage 
 
-	^ self textField 
+	^ self textArea
 		perform: aMessage selector 
 		withArguments: aMessage arguments

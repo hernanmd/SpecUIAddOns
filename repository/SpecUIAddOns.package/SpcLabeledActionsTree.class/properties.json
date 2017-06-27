@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "SpcLabeledTree",
+	"category" : "SpecUIAddOns-Lists",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"buttonAdd",
+		"buttonRename",
+		"buttonRemove",
+		"addActionBlock",
+		"removeActionBlock",
+		"editActionBlock"
+	],
+	"name" : "SpcLabeledActionsTree",
+	"type" : "normal"
+}
