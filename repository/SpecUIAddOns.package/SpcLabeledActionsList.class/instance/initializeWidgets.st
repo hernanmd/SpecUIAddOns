@@ -3,7 +3,7 @@ initializeWidgets
 
 	super initializeWidgets.
 	self instantiateModels: #(
-		buttonAdd			ButtonModel
+		buttonAdd		ButtonModel
 		buttonRename 	ButtonModel
 		buttonRemove 	ButtonModel 
 		).

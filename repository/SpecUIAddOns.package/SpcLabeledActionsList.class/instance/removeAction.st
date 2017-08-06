@@ -2,9 +2,9 @@ callbacks
 removeAction
 	" Open a input box to remove the selected item "
 	
-	(self list notEmpty and: [ self list hasSelection ])
+	(self listWidget notEmpty and: [ self listWidget hasSelection ])
 		ifTrue: [ 
 			^ self removeActionBlock value
 				ifTrue: [ 
-					self list remove: self selectedItem.
-					self list updateList. ] ]
+					self listWidget remove: self selectedItem.
+					self listWidget updateList. ] ]

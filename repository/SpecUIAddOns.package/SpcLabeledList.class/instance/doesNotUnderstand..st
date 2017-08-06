@@ -1,6 +1,6 @@
 reflective operations
 doesNotUnderstand: aMessage
 			
-	^ self list 
+	^ self listWidget 
 		perform: aMessage selector 
 		withArguments: aMessage arguments
