@@ -8,7 +8,7 @@
 	"instvars" : [
 		"model",
 		"status",
-		"validateTripletBlock"
+		"validateBlock"
 	],
 	"name" : "SpcDynamicGrowableBox",
 	"type" : "normal"

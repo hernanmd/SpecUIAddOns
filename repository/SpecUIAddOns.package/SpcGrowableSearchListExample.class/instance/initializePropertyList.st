@@ -7,6 +7,4 @@ initializePropertyList
 			(selection notNil and: [ selection isValidSpcProperty ])
 				ifTrue: [ 
 					self owner setNewQuery.
-					"self comparatorsList items: selection comparators."
-					"self explanation: self selectedProperty explanation"
-					self  ]. ]
+					self comparatorsList items: selection comparators ] ]

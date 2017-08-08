@@ -5,7 +5,7 @@ initializeDefaultValueField
 		ghostText: 'label';
 		entryCompletion: nil;
 		autoAccept: true;
-		acceptBlock: validateTripletBlock;
+		acceptBlock: validateBlock;
 		whenTextChanged: [ : t | 
 			t isEmpty 
 				ifTrue: [ self beInvalid ]

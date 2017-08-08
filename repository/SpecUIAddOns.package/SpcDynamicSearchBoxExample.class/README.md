@@ -9,3 +9,5 @@ m openWithSpecLayout: (SpecLayout composed
 		c add: #item ;
 			add: #ok height: 26 ];
 	yourself).
+	
+SpcDynamicSearchBoxExample new openWithSpec.

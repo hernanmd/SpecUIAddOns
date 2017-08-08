@@ -1,0 +1,3 @@
+private
+setNewQuery
+	" Do nothing "

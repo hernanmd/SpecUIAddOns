@@ -3,7 +3,6 @@ initializeWidgets
 
 	self instantiateModels: (
 		Array 
-			with: #firstQuery 
-			with: self listBoxClass
-		).
-	self collection add: #firstQuery
+			with: #firstItem 
+			with: self listBoxClass).
+	self collection add: #firstItem

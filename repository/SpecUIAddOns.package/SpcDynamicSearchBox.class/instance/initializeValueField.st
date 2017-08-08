@@ -5,7 +5,7 @@ initializeValueField
 		ghostText: 'value';
 		entryCompletion: nil;
 		autoAccept: true;
-		acceptBlock: validateTripletBlock;
+		acceptBlock: validateBlock;
 		whenTextChanged: [ : t | 
 			self owner setNewQuery.
 			t isEmpty 
