@@ -9,7 +9,8 @@
 		"items",
 		"ownerAction",
 		"textFieldDelimiter",
-		"updateBlock"
+		"updateBlock",
+		"selectorTitle"
 	],
 	"name" : "SpcLabeledTextFieldSelector",
 	"type" : "normal"

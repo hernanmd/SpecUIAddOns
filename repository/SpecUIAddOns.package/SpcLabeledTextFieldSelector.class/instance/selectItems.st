@@ -7,4 +7,4 @@ selectItems
 			beCheckList;
 			autoMultiSelection: true;
 			multiSelection: true;
-			openDialogWindowIn: World title: self title
+			openDialogWindowIn: World title: self selectorTitle
