@@ -5,8 +5,9 @@ It can be used to display a list of items, where each item is represented by an 
 Pagination on this list is not supported, 
 
 Instance Variables
-	items:		<Object>
-	ownerAction:		<Object>
+	items:					<Collection>
+	ownerAction:			<BlockClosure>
+	displaySelectorBlock: 	<BlockClosure> or <Symbol>
 			
 Example
 
