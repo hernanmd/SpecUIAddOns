@@ -1,6 +1,6 @@
 Dialog without toolbar buttons.
 
-ApplicationWithToolbar new openAppDialogWithSpec
+SpcDialogWindowModel new openAppDialogWithSpec
 
 Instance Variables
 	contents:		<Object>

@@ -1,5 +1,5 @@
-protocol
+accessing
 labelText
 	" Answer a <String> with receiver's list title "
 	
-	^ 'Test Label'
+	^ 'Selection: '

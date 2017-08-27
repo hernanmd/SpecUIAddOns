@@ -1,1 +1,1 @@
-SpcaFTAdapter new openWithSpec.
+SpcFastTable new openWithSpec.
