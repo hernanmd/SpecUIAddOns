@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "SpcSelectorList",
+	"category" : "SpecUIAddOns-Lists",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"secondSelectionList",
+		"secondSelectionLabel",
+		"secondSelector",
+		"secondDataModel"
+	],
+	"name" : "SpcDoubleSelectorList",
+	"type" : "normal"
+}
