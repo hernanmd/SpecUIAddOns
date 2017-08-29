@@ -8,8 +8,9 @@
 	"instvars" : [
 		"secondSelectionList",
 		"secondSelectionLabel",
-		"secondSelector",
-		"secondDataModel"
+		"detailSelector",
+		"secondDataModel",
+		"detailListSelector"
 	],
 	"name" : "SpcDoubleSelectorList",
 	"type" : "normal"

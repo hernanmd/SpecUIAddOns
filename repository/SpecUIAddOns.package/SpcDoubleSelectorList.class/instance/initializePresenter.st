@@ -6,9 +6,10 @@ initializePresenter
 		whenSelectedItemChanged: [ :selection | 
 			selection
 				ifNotNil: [ :arg | 
+					self secondDataModel: (self dataModel perform: selector with: selection).
 					self secondSelectionList
-						items: (self dataModel perform: selector with: selection);
-						refreshListItems ] ].
+						items: (self secondDataModel perform: detailListSelector) ] ].
+
 	self secondSelectionList
 		whenSelectedItemChanged: [ : selection | 
 			selection
