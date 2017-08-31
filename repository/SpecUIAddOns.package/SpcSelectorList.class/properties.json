@@ -8,7 +8,8 @@
 	"instvars" : [
 		"selectionList",
 		"selector",
-		"dataModel"
+		"dataModel",
+		"labelText"
 	],
 	"name" : "SpcSelectorList",
 	"type" : "normal"

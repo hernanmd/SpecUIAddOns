@@ -2,4 +2,5 @@ accessing
 secondLabelText
 	" Answer a <String> with receiver's list title "
 	
-	^ 'Selection 2: '
+	^ secondLabelText
+		ifNil: [ secondLabelText := self defaultSecondLabelText ]

@@ -1,5 +1,5 @@
 accessing
-labelText
+defaultSecondLabelText
 	" Answer a <String> with receiver's list title "
 	
-	^ 'Selection 1: '
+	^ 'Selection 2: '

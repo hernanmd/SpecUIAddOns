@@ -15,5 +15,5 @@ initializePresenter
 			selection
 				ifNotNil: [ :arg | 
 					self listWidget
-						items: (self secondDataModel perform: selector with: selection);
+						items: (self secondDataModel perform: detailSelector with: selection);
 						refreshListItems ] ]

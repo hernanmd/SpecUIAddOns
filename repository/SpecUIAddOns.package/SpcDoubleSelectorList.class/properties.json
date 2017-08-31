@@ -10,7 +10,8 @@
 		"secondSelectionLabel",
 		"detailSelector",
 		"secondDataModel",
-		"detailListSelector"
+		"detailListSelector",
+		"secondLabelText"
 	],
 	"name" : "SpcDoubleSelectorList",
 	"type" : "normal"
