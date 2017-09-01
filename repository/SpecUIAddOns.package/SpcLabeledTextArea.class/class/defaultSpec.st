@@ -3,9 +3,8 @@ defaultSpec
 	<spec: #default>
 	
 	^ SpecColumnLayout composed
-		newRow: [ : c  |
+		newColumn: [ : c  |
 			c 
-				add: #label width: self labelWidth;
-				add: #textArea ]
-			height: self toolbarHeight;
+				add: #label height: StandardFonts defaultFont height;
+				add: #textArea ];
 		yourself
