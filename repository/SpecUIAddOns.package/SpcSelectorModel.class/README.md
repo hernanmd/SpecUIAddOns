@@ -1,11 +1,11 @@
 Abstract class grouping list selection behavior.
 
 Instance Variables
-	cancelButton:		<Object>
+	cancelButton:		<ButtonModel>
 	displayItems:		<Object>
-	itemList:		<Object>
-	label:		<Object>
-	okButton:		<Object>
+	itemList:				<TreeModel>
+	label:				<LabelModel>
+	okButton:			<ButtonModel>
 
 cancelButton
 	- xxxxx

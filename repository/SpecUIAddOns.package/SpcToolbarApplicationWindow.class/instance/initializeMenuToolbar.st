@@ -1,5 +1,5 @@
 initialization
-initializeMainToolbar
+initializeMenuToolbar
 	" Do nothing. Implement in subclass or set the toolbar in the receiver's client "
 	
 "	mainToolbar := MenuModel new

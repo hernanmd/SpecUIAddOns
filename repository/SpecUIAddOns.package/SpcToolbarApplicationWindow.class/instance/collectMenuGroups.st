@@ -2,4 +2,4 @@ menu
 collectMenuGroups
 	" Answer a <MenuItemModel> "
 	
-	^ self mainToolbar menuGroups 
+	^ self menuToolbar menuGroups 

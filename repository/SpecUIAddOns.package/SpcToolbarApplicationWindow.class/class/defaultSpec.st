@@ -5,5 +5,5 @@ defaultSpec
 	^ SpecLayout composed
 		newRow: [ : row | 
 			row newColumn: [ : col | 
-				col  add: #mainToolbar height: self toolbarHeight ] ];
+				col  add: #menuToolbar height: self toolbarHeight ] ];
 		yourself

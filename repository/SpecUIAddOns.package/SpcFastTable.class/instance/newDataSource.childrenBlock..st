@@ -1,4 +1,4 @@
-initialize
+initialization
 newDataSource: newItems childrenBlock: aBlock
 
 	self ftMorph dataSource: (SpcFTreeDataSource

@@ -1,7 +1,7 @@
-initialize
+initialization
 initializeWidgets
 
-	ftMorph := FTTableMorph new
+	ftMorph := FTEasyListMorph new
 		allowDeselection;
 		beMultipleSelection;
 		secondarySelectionColor: Color tan;

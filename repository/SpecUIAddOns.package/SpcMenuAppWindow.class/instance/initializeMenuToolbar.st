@@ -1,7 +1,7 @@
 initialization
-initializeMainToolbar
+initializeMenuToolbar
 
-	mainToolbar := MenuModel new
+	menuToolbar := MenuModel new
 		addGroup: [ : group | 
 			self initializeFileSubMenu: group.
 			self initializeToolsSubMenu: group. 
@@ -9,4 +9,4 @@ initializeMainToolbar
 		addGroup: [ : group |
 			"self initializeFileToolbarButtons: group.			"
 			self initializeActionsButtons: group ].
-	mainToolbar applyTo: self.
+	menuToolbar applyTo: self.

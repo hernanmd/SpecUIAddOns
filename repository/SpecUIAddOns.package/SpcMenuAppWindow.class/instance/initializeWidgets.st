@@ -1,6 +1,6 @@
 initialization
 initializeWidgets
 
-	self initializeMainToolbar.
+	self initializeMenuToolbar.
 	self initializeButtonToolbar.	
 	self setFocusOrder.
