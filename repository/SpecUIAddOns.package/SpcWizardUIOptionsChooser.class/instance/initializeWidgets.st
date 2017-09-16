@@ -1,8 +1,6 @@
 initialization
 initializeWidgets
+	" Private - See superimplementor's comment "
 
 	super initializeWidgets.
-	radioButton1 := self newRadioButton.
-	radioButton2 := self newRadioButton.		
-	self setFocus.
-	self setGroup.
+	self instantiateModels: #(radioButtonGroup 		SpcRadioButtonGroup)

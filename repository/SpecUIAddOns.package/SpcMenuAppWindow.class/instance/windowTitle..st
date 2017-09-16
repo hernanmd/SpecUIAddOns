@@ -1,3 +1,5 @@
 accessing
-windowTitle: anObject
-	windowTitle := anObject
+windowTitle: aString
+	" Set receiver's top window title to be aString"
+
+	windowTitle := aString

@@ -1,0 +1,22 @@
+{
+	"commentStamp" : "HernanMoralesDurand 9/15/2017 18:52",
+	"super" : "SpcLabeledList",
+	"category" : "SpecUIAddOns-Lists",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"title",
+		"list",
+		"addButton",
+		"removeButton",
+		"upButton",
+		"downButton",
+		"topButton",
+		"bottomButton",
+		"addItemBlock",
+		"okBlock"
+	],
+	"name" : "SpcEditableList",
+	"type" : "normal"
+}
