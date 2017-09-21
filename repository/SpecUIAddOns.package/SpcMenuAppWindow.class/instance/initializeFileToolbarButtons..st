@@ -3,6 +3,6 @@ initializeFileToolbarButtons: group
 	group
 		addItem: [ :item | 
 			item
-				description: self openFileMenuItemString;
+				description: 'Open File';
 				icon: #openIcon asIcon;
 				action: [ self openDataSource ] ]

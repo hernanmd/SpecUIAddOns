@@ -1,4 +1,0 @@
-initialization
-openFileMenuItemString
-
-	^ 'Open File'

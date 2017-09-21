@@ -3,6 +3,6 @@ initializeHelpSubMenu: group
 	group
 		addItem: [ :item | 
 			item
-				name: self helpLabel;
+				name: 'Help';
 				icon: #helpIcon asIcon;
 				subMenu: self subMenuForHelp ]

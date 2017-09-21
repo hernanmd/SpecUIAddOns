@@ -3,6 +3,6 @@ initializeToolsSubMenu: group
 	group
 		addItem: [ :item | 
 			item
-				name: self toolsLabel;
+				name: 'Tools';
 				icon: #openIcon asIcon;
 				subMenu: self subMenuForTools ]
