@@ -1,5 +1,5 @@
-initialization
-initializeHelpSubMenu: group
+initialization-menus
+initializeHelpMenu: group
 	group
 		addItem: [ :item | 
 			item
