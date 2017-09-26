@@ -15,7 +15,9 @@
 		"topButton",
 		"bottomButton",
 		"addItemBlock",
-		"okBlock"
+		"okBlock",
+		"addActionBlock",
+		"removeActionBlock"
 	],
 	"name" : "SpcEditableList",
 	"type" : "normal"

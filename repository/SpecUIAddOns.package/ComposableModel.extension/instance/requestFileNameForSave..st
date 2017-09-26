@@ -9,6 +9,6 @@ requestFileNameForSave: extensionString
 		path: nil.
 	filename 
 		ifNil: [ 
-			self inform: 'Saving cancelled'. 
+			self informMessage: 'Saving cancelled'. 
 			^ String empty ].
 	^ filename fullName
