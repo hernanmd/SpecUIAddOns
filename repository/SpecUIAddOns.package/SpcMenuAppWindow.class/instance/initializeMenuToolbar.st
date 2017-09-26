@@ -1,11 +1,11 @@
-initialization-menus
+initialization
 initializeMenuToolbar
 
 	menuToolbar := MenuModel new
 		addGroup: [ : group | 
 			self initializeFileSubMenu: group.
-			self initializeToolsMenu: group. 
-			self initializeHelpMenu: group ];
+			self initializeToolsSubMenu: group. 
+			self initializeHelpSubMenu: group ];
 		addGroup: [ : group |
 			"self initializeFileToolbarButtons: group.			"
 			self initializeActionsButtons: group ].

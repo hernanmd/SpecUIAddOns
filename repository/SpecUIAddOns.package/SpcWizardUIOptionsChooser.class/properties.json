@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"radioButtonGroup"
+		"radioButton1",
+		"radioButton2"
 	],
 	"name" : "SpcWizardUIOptionsChooser",
 	"type" : "normal"

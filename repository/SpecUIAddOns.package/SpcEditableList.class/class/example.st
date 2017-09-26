@@ -1,4 +1,4 @@
-example
+examples
 example
 	^self new
 	

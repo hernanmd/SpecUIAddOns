@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"windowTitle",
-		"menuToolbar"
+		"windowTitle"
 	],
 	"name" : "SpcMenuAppWindow",
 	"type" : "normal"

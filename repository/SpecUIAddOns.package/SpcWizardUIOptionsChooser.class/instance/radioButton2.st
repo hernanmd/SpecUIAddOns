@@ -1,4 +1,4 @@
 accessing
 radioButton2
 
-	^ self radioButtonGroup button2
+	^ radioButton2

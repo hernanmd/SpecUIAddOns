@@ -1,8 +1,9 @@
 initialization
 initializeFileToolbarButtons: group
+
 	group
-		addItem: [ :item | 
+		addItem: [ : item | 
 			item
-				description: 'Open File';
-				icon: #openIcon asIcon;
-				action: [ self openDataSource ] ]
+				description: self openFileMenuItemString;
+				icon: Smalltalk ui icons openIcon;
+				action: [ self openDataSource ] ].
