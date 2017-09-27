@@ -5,5 +5,5 @@ initializeToolsSubMenu: group
 		addItem: [ :item | 
 			item
 				name: self toolsLabel;
-				icon: Smalltalk ui icons openIcon;
+				icon: #openIcon asIcon;
 				subMenu: self subMenuForTools ].

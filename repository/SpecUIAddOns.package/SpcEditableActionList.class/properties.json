@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 9/26/2017 00:04",
-	"super" : "SpcLabeledList",
+	"super" : "SpcActionList",
 	"category" : "SpecUIAddOns-Lists",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -15,10 +15,8 @@
 		"topButton",
 		"bottomButton",
 		"addItemBlock",
-		"okBlock",
-		"addActionBlock",
-		"removeActionBlock"
+		"okBlock"
 	],
-	"name" : "SpcEditableList",
+	"name" : "SpcEditableActionList",
 	"type" : "normal"
 }
