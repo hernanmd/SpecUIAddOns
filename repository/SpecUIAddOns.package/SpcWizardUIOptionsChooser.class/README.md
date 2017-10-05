@@ -1,1 +1,3 @@
-Contains radio buttons for options
+Abstract class.
+
+Provides radio buttons for options.

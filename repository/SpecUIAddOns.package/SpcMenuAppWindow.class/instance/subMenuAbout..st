@@ -3,7 +3,7 @@ subMenuAbout: item
 
 	item
 		name: 'About';
-		icon: Smalltalk ui icons smallInfoIcon;
+		icon: #smallInfoIcon asIcon;
 		action: [ 	| dialog |
 			dialog := LongMessageDialogWindow new entryText: self aboutText.
 			" dialog iconMorph image: Smalltalk ui icons pharoIcon."

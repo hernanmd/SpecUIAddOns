@@ -3,7 +3,7 @@ buildRemoveButton
 
 	^ self buttonRemove
 		action: [ self removeAction ];
-		icon: Smalltalk ui icons removeIcon;
+		icon: #removeIcon asIcon;
 		color: Color transparent;
 		help: 'Remove the selected item';
 		yourself

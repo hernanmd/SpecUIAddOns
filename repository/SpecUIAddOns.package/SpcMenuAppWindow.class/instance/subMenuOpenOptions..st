@@ -3,6 +3,6 @@ subMenuOpenOptions: item
 
 	item
 		name: 'Options...';
-		icon: Smalltalk ui icons openIcon;
+		icon: #openIcon asIcon;
 		shortcut: $o command;
 		action: [ self openOptions ]

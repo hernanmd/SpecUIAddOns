@@ -2,6 +2,6 @@ examples
 example1
 
 	SpcLabeledTree new
-		items: (1 to: 10) asArray;
-		label: 'Example SpcLabeledList';
+		setItems: (1 to: 10) asArray;
+		label: 'Example SpcLabeledTree';
 		openWithSpec.

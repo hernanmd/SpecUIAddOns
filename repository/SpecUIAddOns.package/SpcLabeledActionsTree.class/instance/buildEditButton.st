@@ -3,7 +3,7 @@ buildEditButton
 
 	^ self buttonRename
 		action: [ self editAction ];
-		icon: (Smalltalk ui icons iconNamed: #edit);
+		icon: #edit asIcon;
 		color: Color transparent;
 		help: 'Rename the selected item';
 		yourself

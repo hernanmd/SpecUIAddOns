@@ -5,4 +5,4 @@ Defines a Spec component composed of:
 - A query value text box, where the user can enter a value of interest.
 - A button to add or remove the property/comparator/value fields (a triplet).
 
-SpcDynamicSearchBox new openWithSpec.
+See subclases for examples.

@@ -3,7 +3,7 @@ buildAddButton
 
 	^ self buttonAdd
 		action: [ self addAction ];
-		icon: (Smalltalk ui icons iconNamed: #add);
+		icon: #add asIcon;
 		color: Color transparent;
 		help: 'Add a new group';
 		yourself

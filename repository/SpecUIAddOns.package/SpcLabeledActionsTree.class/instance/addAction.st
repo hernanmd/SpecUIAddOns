@@ -4,5 +4,5 @@ addAction
 	
 	^ self addActionBlock value
 		ifNotNilDo: [ : newItem | 
-			self list add: newItem.
-			self list updateList. ]
+			self tree addItem: newItem.
+			self updateTree. ]

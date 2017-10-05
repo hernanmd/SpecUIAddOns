@@ -11,4 +11,7 @@ initializeWidgets
 		buildAddButton;
 		buildEditButton;
 		buildRemoveButton.
-	self focusOrder add: self buttonAdd				
+	self focusOrder 
+		add: self buttonAdd;
+		add: self buttonRename;
+		add: self buttonRemove

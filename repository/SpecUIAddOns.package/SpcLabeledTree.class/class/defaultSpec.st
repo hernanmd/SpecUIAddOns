@@ -4,6 +4,7 @@ defaultSpec
 	
 	^ SpecLayout composed
 		newColumn: [ : c  |
-			c add: #label height: self toolbarHeight;
-				add: #list ];
-				yourself
+			c 
+				add: #label height: self toolbarHeight;
+				add: #tree ];
+		yourself

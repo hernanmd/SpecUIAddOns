@@ -8,7 +8,7 @@ example02
 	textField
 		buttonLabel: 'Select items';
 		items: (1 to: 10);
-		ownerAction: [ : selections | textField items: selections ];
+		ownerAction: [ : selections | textField text: (selections joinUsing: ' ') ];
 		textFieldDelimiter: $;;
 		ghostText: 'Please enter a value';	
 		label: 'Title';

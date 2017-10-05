@@ -6,7 +6,7 @@ defaultSpec
 		newColumn: [ : c  |
 			c 
 				add: #label height: self toolbarHeight;
-				add: #list;
+				add: #tree;
 				newRow: [ : r | 
 					r 
 						add: #buttonAdd;

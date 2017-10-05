@@ -5,5 +5,5 @@ subMenuQuit: item
 	item 
 		name: 'Quit';
 		shortcut: $q command;
-		icon: Smalltalk ui icons smallQuitIcon;
+		icon: #smallQuitIcon asIcon;
 		action: [ self quitApplication ]

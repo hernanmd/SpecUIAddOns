@@ -1,12 +1,11 @@
 {
 	"commentStamp" : "HernanMoralesDurand 6/27/2017 11:49",
-	"super" : "ComposableModel",
+	"super" : "SpcLabeledWidget",
 	"category" : "SpecUIAddOns-Lists",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"label",
 		"tree"
 	],
 	"name" : "SpcLabeledTree",

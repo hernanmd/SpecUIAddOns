@@ -3,5 +3,5 @@ subMenuHelp: item
 
 	item
 		name: 'Help';
-		icon: Smalltalk ui icons smallHelpIcon;
+		icon: #smallHelpIcon asIcon;
 		action: [ self openHelp ]
