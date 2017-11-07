@@ -1,6 +1,6 @@
-*SpecUIAddOns
+accessing
 removeAll
 	" Remove all recever's items "
 
-	self roots: Array empty.
+	self roots: self collectionClass empty.
 	self updateTree.

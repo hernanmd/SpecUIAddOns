@@ -1,17 +1,11 @@
 initialization
 initializeWidgets
+	" Private - See superimplementor's comment "
 
-	super initializeWidgets.
+	super initializeWidgets.	
 	self instantiateModels: #(
-		buttonAdd		ButtonModel
+		buttonAdd			ButtonModel
 		buttonRename 	ButtonModel
 		buttonRemove 	ButtonModel 
-		).
-	self 
-		buildAddButton;
-		buildEditButton;
-		buildRemoveButton.
-	self focusOrder 
-		add: self buttonAdd;
-		add: self buttonRename;
-		add: self buttonRemove
+		tree 				SpcTreeModel	).
+	self initializeButtons.
