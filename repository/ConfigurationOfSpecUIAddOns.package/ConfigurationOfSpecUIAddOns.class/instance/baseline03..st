@@ -9,7 +9,7 @@ baseline03: spec
 			project: 'CommonUtils' with: [
 				spec
 					className: #ConfigurationOfCommonUtils;
-					versionString: #'stable';
+					versionString: #'development';
 					repository: 'http://smalltalkhub.com/mc/hernan/CommonUtils/main/' ];
 			project: 'Roassal2' with: [
 				spec
@@ -17,9 +17,12 @@ baseline03: spec
 					versionString: '1.38';
 					repository: 'http://smalltalkhub.com/mc/ObjectProfile/Roassal2/main/' ].
 		spec 
-			package: #SpecUIAddOns with: [ spec requires: #('CommonUtils') ];
-			package: #'SpecUIAddOns-Morphic' with: [ spec requires: #(#SpecUIAddOns ). ];
-			package: #'SpecUIAddOns-Roassal2' with: [ spec requires: #(#SpecUIAddOns #'SpecUIAddOns-Morphic' 'Roassal2' ). ].
+			package: #SpecUIAddOns with: [
+				spec requires: #('CommonUtils' ). ];
+			package: #'SpecUIAddOns-Morphic' with: [
+				spec requires: #(#SpecUIAddOns ). ];
+			package: #'SpecUIAddOns-Roassal2' with: [
+				spec requires: #(#SpecUIAddOns #'SpecUIAddOns-Morphic' 'Roassal2' ). ].
 		spec 
 			group: 'All' with: #('SpecUIAddOns-Roassal2' 'SpecUIAddOns-Morphic' 'SpecUIAddOns' );
 			group: 'Core' with: #('SpecUIAddOns' );
