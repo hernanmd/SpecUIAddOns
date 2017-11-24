@@ -1,7 +1,8 @@
 initialization
 initializeWidgets
 
-	button1 := self newRadioButton.
-	button2 := self newRadioButton.
+	self instantiateModels: #(
+		button1 	SpcRadioButtonModel 	
+		button2 	SpcRadioButtonModel).
 	self setFocus.
 	self setGroup

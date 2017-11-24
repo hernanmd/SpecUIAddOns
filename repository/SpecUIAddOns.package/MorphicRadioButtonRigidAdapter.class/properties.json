@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MorphicRadioButtonAdapter",
+	"category" : "SpecUIAddOns-MorphicAdapters",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MorphicRadioButtonRigidAdapter",
+	"type" : "normal"
+}
