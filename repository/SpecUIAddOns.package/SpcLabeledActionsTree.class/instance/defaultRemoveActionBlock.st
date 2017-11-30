@@ -1,4 +1,4 @@
 defaults
 defaultRemoveActionBlock
 
-	^ [ UIManager default confirm: self defaultRemoveRequestMessage ]
+	^ [ self confirm: self defaultRemoveRequestMessage ]
