@@ -1,7 +1,6 @@
 initialization
 initializeButtonToolbar
+	" Private - Set up the main window toolbar "
 
 	toolbar := self instantiate: self toolbarClass.
-	toolbar 
-		okAction: [ self execute ];
-		cancelAction: [ self quitApplication ].
+	self initializeButtonToolbarActions.
