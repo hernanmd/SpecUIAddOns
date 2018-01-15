@@ -1,6 +1,6 @@
 specs
-defaultSpec
-	<spec: #default>
+buttonsOnBottonSpec
+	<spec>
 	
 	^ SpecLayout composed
 		newColumn: [ : c  |

@@ -1,5 +1,5 @@
 defaults
 defaultAddActionBlock
 
-	^ [ (self request: self defaultAddRequestMessage)	
+	^ [ (self requestMessage: self defaultAddRequestMessage)	
 			ifNotNil: [ : response | response ] ]
