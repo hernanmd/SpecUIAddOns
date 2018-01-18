@@ -1,5 +1,5 @@
 specs
-buttonsOnBottonSpec
+buttonsOnBottomSpec
 	<spec>
 	
 	^ SpecLayout composed
@@ -10,6 +10,6 @@ buttonsOnBottonSpec
 				newRow: [ : r | 
 					r 
 						add: #buttonAdd;
-						add: #buttonRename;
+						add: #buttonModify;
 						add: #buttonRemove ] height: self toolbarHeight ];
 				yourself

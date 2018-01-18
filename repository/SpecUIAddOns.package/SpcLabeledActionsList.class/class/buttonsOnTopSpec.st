@@ -9,7 +9,7 @@ buttonsOnTopSpec
 				newRow: [ : r | 
 					r 
 						add: #buttonAdd;
-						add: #buttonRename;
+						add: #buttonModify;
 						add: #buttonRemove ] height: self toolbarHeight;
 				add: #listWidget ];
 				yourself

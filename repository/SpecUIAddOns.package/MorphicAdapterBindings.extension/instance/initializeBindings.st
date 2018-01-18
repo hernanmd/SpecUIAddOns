@@ -18,7 +18,8 @@ initializeBindings
 		at: #MenuItemAdapter			put: #MorphicMenuItemAdapter;
 
 		at: #RadioButtonAdapter		put: #MorphicRadioButtonAdapter;
-		at: #RadioButtonRigidAdapter		put: #MorphicRadioButtonRigidAdapter;				
+		at: #RadioButtonRigidAdapter		put: #MorphicRadioButtonRigidAdapter;
+		at: #ColorChooserAdapter 	put: #MorphicColorChooserAdapter;		
 		at: #SliderAdapter				put: #MorphicSliderAdapter;
 		at: #TabManagerAdapter		put: #MorphicTabManagerAdapter;
 		at: #TabAdapter					put: #MorphicTabAdapter;

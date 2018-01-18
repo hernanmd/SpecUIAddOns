@@ -7,11 +7,11 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"buttonAdd",
-		"buttonRename",
 		"buttonRemove",
 		"addActionBlock",
 		"removeActionBlock",
-		"editActionBlock"
+		"editActionBlock",
+		"buttonModify"
 	],
 	"name" : "SpcLabeledActionsTree",
 	"type" : "normal"

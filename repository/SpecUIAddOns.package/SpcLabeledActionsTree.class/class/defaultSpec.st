@@ -10,6 +10,6 @@ defaultSpec
 				newRow: [ : r | 
 					r 
 						add: #buttonAdd;
-						add: #buttonRename;
+						add: #buttonModify;
 						add: #buttonRemove ] height: self toolbarHeight ];
 				yourself

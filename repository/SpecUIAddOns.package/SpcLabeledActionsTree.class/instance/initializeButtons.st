@@ -8,5 +8,5 @@ initializeButtons
 		buildRemoveButton.
 	self focusOrder 
 		add: self buttonAdd;
-		add: self buttonRename;
+		add: self buttonModify;
 		add: self buttonRemove

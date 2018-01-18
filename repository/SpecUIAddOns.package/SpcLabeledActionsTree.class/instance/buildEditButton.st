@@ -1,9 +1,9 @@
 accessing - buttons
 buildEditButton
 
-	^ self buttonRename
+	^ self buttonModify
 		action: [ self editAction ];
 		icon: #edit asIcon;
 		color: Color transparent;
-		help: 'Rename the selected item';
+		help: 'Modify the selected item';
 		yourself

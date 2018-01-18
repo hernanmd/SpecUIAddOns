@@ -5,7 +5,7 @@ initializeWidgets
 	super initializeWidgets.	
 	self instantiateModels: #(
 		buttonAdd			ButtonModel
-		buttonRename 	ButtonModel
+		#buttonModify 	ButtonModel
 		buttonRemove 	ButtonModel 
 		tree 				SpcTreeModel	).
 	self initializeButtons.
