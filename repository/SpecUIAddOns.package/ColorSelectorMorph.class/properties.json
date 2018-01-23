@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Morph",
+	"category" : "SpecUIAddOns-MorphicAdapters",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"selectedColor",
+		"hsvaMorph",
+		"colorPresenterMorph"
+	],
+	"name" : "ColorSelectorMorph",
+	"type" : "normal"
+}

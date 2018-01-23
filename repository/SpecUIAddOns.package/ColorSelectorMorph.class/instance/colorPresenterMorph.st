@@ -1,0 +1,3 @@
+accessing
+colorPresenterMorph
+	^ colorPresenterMorph

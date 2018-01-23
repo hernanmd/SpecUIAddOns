@@ -1,5 +1,4 @@
 factory
 buildWidget
 
-	^ (ColorSelectorDialogWindow new
-			title: 'Choose a color').
+	^ ColorSelectorMorph new
