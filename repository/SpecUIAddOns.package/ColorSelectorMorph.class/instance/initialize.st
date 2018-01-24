@@ -8,14 +8,16 @@ initialize
 	self colorPresenterMorph: self newColorPresenterMorph.
 
 	self 
-		changeTableLayout;
-		hResizing: #spaceFill;
-		vResizing: #rigid;
+"		changeTableLayout;"
+		changeProportionalLayout;
+		hResizing: #shrinkWrap;
+		vResizing: #shrinkWrap;
 		wrapCentering: #topLeft;		
+		cellPositioning: #leftCenter;				
 "		hResizing: #spaceFill;
 		vResizing: #shrinkWrap;		
 		cellPositioning: #topLeft;
-		cellInset: 5;		"
+		"
 		fillStyle: Color transparent;				
 		addMorphBack: self hsvaMorph; " frame: (0@0 corner: 1@1)"
 		addMorphBack: self colorPresenterMorph.

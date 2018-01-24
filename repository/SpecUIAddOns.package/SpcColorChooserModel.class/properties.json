@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "ComposableModel",
+	"super" : "AbstractWidgetModel",
 	"category" : "SpecUIAddOns-Widgets",
 	"classinstvars" : [ ],
 	"pools" : [ ],
