@@ -1,4 +1,0 @@
-defaults
-defaultAddActionBlock
-
-	^ [ addItemBlock value ].

@@ -1,13 +1,18 @@
 {
-	"commentStamp" : "",
-	"super" : "SpcLabeledList",
+	"commentStamp" : "HernanMoralesDurand 3/2/2018 20:45",
+	"super" : "SpcAbstractActionList",
 	"category" : "SpecUIAddOns-Lists",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"addActionBlock",
-		"removeActionBlock"
+		"title",
+		"upButton",
+		"downButton",
+		"topButton",
+		"bottomButton",
+		"addItemBlock",
+		"okBlock"
 	],
 	"name" : "SpcActionList",
 	"type" : "normal"

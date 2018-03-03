@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "HernanMoralesDurand 8/27/2017 04:49",
+	"super" : "SpcAbstractActionList",
+	"category" : "SpecUIAddOns-Lists",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"editActionBlock",
+		"editButton"
+	],
+	"name" : "SpcEditableList",
+	"type" : "normal"
+}

@@ -3,5 +3,5 @@ removeAll
 	" Remove all recever's items "
 
 	self listWidget ifNotNil: [ 
-		self items: Array empty.
+		self items: nil.
 		self updateList. ].

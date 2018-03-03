@@ -1,7 +1,5 @@
 menu
 collectSubMenuGroupsItems
-	" Answer a <MenuItemModel> "
+	" Answer a <Collection> of receiver's <MenuModel>. Each MenuModel is the sub-menu of a top menu item "
 	
-	^ (self collectMenuGroupsItems 
-		flatCollect: [ : menuItem | menuItem collect: #subMenu ])
-			reject: #isNil
+	^ (self collectMenuGroupsItems collect: #subMenu) reject: #isNil

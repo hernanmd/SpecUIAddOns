@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "SpcLabeledList",
+	"category" : "SpecUIAddOns-Lists",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"addButton",
+		"removeButton",
+		"addActionBlock",
+		"removeActionBlock"
+	],
+	"name" : "SpcAbstractActionList",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SpecInterpreter",
+	"category" : "SpecUIAddOns-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpcDebugInterpreter",
+	"type" : "normal"
+}
