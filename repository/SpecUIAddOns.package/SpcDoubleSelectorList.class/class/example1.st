@@ -18,6 +18,7 @@ example1
 		yourself.
 
 	SpcDoubleSelectorList new
+		title: 'Double Selector List Example';
 		dataModel: dataModel;
 		selector: #at:;
 		detailListSelector: #keys;

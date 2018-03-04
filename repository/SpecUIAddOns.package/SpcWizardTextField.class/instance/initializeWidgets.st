@@ -7,6 +7,6 @@ initializeWidgets
 	self text
 		autoAccept: true;
 		entryCompletion: nil;
-		ghostText: self ghostTextExample;
+		ghostText: self ghostText;
 		bindKeyCombination: Character cr asKeyCombination 
 		toAction: [ self toolbar performSecondButtonAction ].		

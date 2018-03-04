@@ -1,3 +1,5 @@
+This class only provides a box in a dynamic filtering list. To work with the whole list please see SpcGrowableSearchList class.
+
 Usage examples
 
 | m |

@@ -1,0 +1,3 @@
+examples
+setNewQuery
+	" shouldBeImplemented "

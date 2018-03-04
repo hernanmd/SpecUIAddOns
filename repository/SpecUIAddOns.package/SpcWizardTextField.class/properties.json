@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "HernanMoralesDurand 12/26/2016 16:39",
+	"commentStamp" : "HernanMoralesDurand 3/4/2018 17:35",
 	"super" : "SpcWizardUINavigation",
 	"category" : "SpecUIAddOns-Wizard",
 	"classinstvars" : [ ],
@@ -7,8 +7,9 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"label",
-		"text"
+		"text",
+		"ghostTextExample"
 	],
-	"name" : "SpcWizardTextModelExample1",
+	"name" : "SpcWizardTextField",
 	"type" : "normal"
 }
