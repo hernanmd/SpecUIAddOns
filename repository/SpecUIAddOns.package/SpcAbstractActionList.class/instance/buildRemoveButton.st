@@ -1,8 +1,10 @@
 accessing - buttons
 buildRemoveButton
+	" Private - Answer a new <ButtonModel> to remove items in the receiver "
+	
 	^ self removeButton
 		action: [ self removeAction ];
 		icon: #removeIcon asIcon;
 		color: Color transparent;
-		help: 'Remove the selected item';
+		help: self removeButtonHelpText;
 		yourself

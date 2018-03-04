@@ -1,5 +1,4 @@
 accessing
-addActionBlock: anObject
+addActionBlock: aBlock
 
-	self halt.
-	addActionBlock := anObject
+	addActionBlock := aBlock

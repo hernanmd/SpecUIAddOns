@@ -9,7 +9,9 @@
 		"addButton",
 		"removeButton",
 		"addActionBlock",
-		"removeActionBlock"
+		"removeActionBlock",
+		"addButtonHelpText",
+		"removeButtonHelpText"
 	],
 	"name" : "SpcAbstractActionList",
 	"type" : "normal"
