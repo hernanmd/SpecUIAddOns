@@ -3,7 +3,7 @@
 
 # Description
 
-Add-ons for Spec (Smalltalk UI description framework).
+This package provides widgets for Spec (Pharo Smalltalk UI description framework).
 
 # Installation
 
@@ -27,11 +27,11 @@ Operation buttons can be placed on bottom:
 
 ![Screenshot 2](screenshots/01_SpcEditableList_code_2.png)
 
-Widget with no items selected:
+Widget with buttons on top and no items selected:
 
 ![Screenshot 3](screenshots/01_SpcEditableList_widget_1.png)
 
-Widget with items selected:
+Widget with buttons on bottom and item selected:
 
 ![Screenshot 4](screenshots/01_SpcEditableList_widget_2.png)
 
@@ -125,12 +125,11 @@ Provides two lists, acting as master-detail.
 
 ![Screenshot 32](screenshots/12_SpcGrowableSearchList_widget_2.png)
 
-# Usage
-
-It requires you already have some experience building Spec user-interfaces. Most widgets can be used by composition (i.e.: in the #instantiateModels: inside your #initializeWidgets). Some other widgets are intended to be subclassed.
 
 # Usage notes
 
+  - It requires you already have some experience building Spec user-interfaces.
+    - Most widgets can be used by composition (i.e.: in the #instantiateModels: inside your #initializeWidgets). Some other widgets are intended to be subclassed.
   - The SpecUIAddOns classes begins with Spc prefix.
   - Most widgets implements example methods in the class side, category "examples"
 
