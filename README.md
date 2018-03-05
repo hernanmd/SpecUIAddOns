@@ -18,7 +18,7 @@ pi install SpecUIAddOns
 In Pharo Smalltalk
 
 ```smalltalk
-Metacello new	  baseline: 'SpecUIAddOns';	  repository: 'github://hernanmd/SpecUIAddOns';	  load.
+Metacello new	  baseline: 'SpecUIAddOns';	  repository: 'github://hernanmd/SpecUIAddOns/repository';	  load.
 ```
 
 ## Development version
@@ -83,7 +83,7 @@ On click Browse button, a file selection dialog is displayed:
 
 ## Double Selector List
 
-Provides two lists, acting as master-detail.
+Provides two lists, two list acting as master-detail and a third one with items associated to the detail list.
 
 ![Screenshot 12](screenshots/05_SpcDoubleSelector_final.png)
 
@@ -102,6 +102,8 @@ Provides two lists, acting as master-detail.
 ![Screenshot 17](screenshots/07_WizardTextField.png)
 
 ## Radio Button in Wizard
+
+Provides vertically aligned radio buttons:
 
 ![Screenshot 18](screenshots/08_SpcWizardRadioButtonExample_code.png)
 
