@@ -9,8 +9,24 @@ This package provides widgets for Spec (Pharo Smalltalk UI description framework
 
 ## Stable version
 
+Through command-line using [PI](https://github.com/hernanmd/pi):
+
+```bash
+pi install SpecUIAddOns
+```
+
+In Pharo Smalltalk
+
 ```smalltalk
 Metacello new	  baseline: 'SpecUIAddOns';	  repository: 'github://hernanmd/SpecUIAddOns';	  load.
+```
+
+## Development version
+
+Through command-line using [PI](https://github.com/hernanmd/pi):
+
+```bash
+pi --dev install SpecUIAddOns
 ```
 
 # Screenshots
