@@ -9,9 +9,9 @@ Add-ons for Spec (Smalltalk UI description framework).
 
 ## Stable version
 
-´´´smalltalk
+```smalltalk
 Metacello new	  baseline: 'SpecUIAddOns';	  repository: 'github://hernanmd/SpecUIAddOns';	  load.
-´´´
+```
 
 # Screenshots
 
@@ -20,66 +20,109 @@ Metacello new	  baseline: 'SpecUIAddOns';	  repository: 'github://hernanmd/Spe
 Provides a List with add, edit and remove items behavior. Add and edit buttons are automatically selected or deselected depending on current selection. 
 
 Operation buttons can be placed on top:
+
 ![Screenshot 1](screenshots/01_SpcEditableList_code_1.png)
 
 Operation buttons can be placed on bottom:
+
 ![Screenshot 2](screenshots/01_SpcEditableList_code_2.png)
 
 Widget with no items selected:
+
 ![Screenshot 3](screenshots/01_SpcEditableList_widget_1.png)
 
 Widget with items selected:
+
 ![Screenshot 4](screenshots/01_SpcEditableList_widget_2.png)
 
 ## Labeled TextArea
 
+TextArea code:
+
 ![Screenshot 5](screenshots/02_LabeledTextArea_code.png)
+
+TextArea widget:
+
 ![Screenshot 6](screenshots/02_LabeledTextArea_widget.png)
 
 ## Labeled TextField with Button
 
+TextField with an action button code:
+
 ![Screenshot 7](screenshots/03_SpcLabeledTextFieldWithButton_code.png)
+
+TextField with action button widget:
+
 ![Screenshot 8](screenshots/03_SpcLabeledTextFieldWithButton_widget.png)
 
 ## Lebeled TextField with Browse file Button
+
 ![Screenshot 11](screenshots/04_SpcLabeledTextFieldWithBrowseButton_code.png)
+
+On click Browse button, a file selection dialog is displayed:
 
 ![Screenshot 9](screenshots/04_SpcLabeledTextFieldWithBrowseButton_1.png)
 
-On clicking Browse, a file selection dialog is displayed:
 ![Screenshot 10](screenshots/04_SpcLabeledTextFieldWithBrowseButton_2.png)
 
 ## Double Selector List
 
 Provides two lists, acting as master-detail.
+
 ![Screenshot 12](screenshots/05_SpcDoubleSelector_final.png)
 
 ## Toolbar with Buttons
 
 ![Screenshot 13](screenshots/06_SpcToolbarButtons_code.png)
+
 ![Screenshot 14](screenshots/06_Toolbar_2.png)
+
 ![Screenshot 15](screenshots/06_Toolbar_3.png)
 
 ## TextField in Wizard
 
 ![Screenshot 16](screenshots/07_SpcWizardTextField_code.png)
+
 ![Screenshot 17](screenshots/07_WizardTextField.png)
 
+## Radio Button in Wizard
 
 ![Screenshot 18](screenshots/08_SpcWizardRadioButtonExample_code.png)
+
 ![Screenshot 19](screenshots/08_SpcWizardRadioButtonExample_widget.png)
+
+## TextField Selector
+
 ![Screenshot 20](screenshots/09_SpcLabeledTextFieldSelector_1.png)
+
 ![Screenshot 21](screenshots/09_SpcLabeledTextFieldSelector_2.png)
+
 ![Screenshot 22](screenshots/09_SpcLabeledTextFieldSelector_3.png)
+
 ![Screenshot 23](screenshots/09_SpcLabeledTextFieldSelector_code.png)
+
+## Searchable List
+
 ![Screenshot 24](screenshots/10_SingleSearchableMCList_code.png)
+
 ![Screenshot 25](screenshots/10_SingleSearchableMCList_widget_1.png)
+
 ![Screenshot 26](screenshots/10_SingleSearchableMCList_widget_2.png)
+
+## TextField with Browse Button
+
 ![Screenshot 27](screenshots/11_SpcLabeledTextFieldWithBrowseButton_code.png)
+
 ![Screenshot 28](screenshots/11_SpcLabeledTextFieldWithBrowseButton_widget_1.png)
+
 ![Screenshot 29](screenshots/11_SpcLabeledTextFieldWithBrowseButton_widget_2.png)
+
+## Growable search list
+
 ![Screenshot 30](screenshots/12_SpcGrowableSearchList_code.png)
+
 ![Screenshot 31](screenshots/12_SpcGrowableSearchList_widget_1.png)
+
 ![Screenshot 32](screenshots/12_SpcGrowableSearchList_widget_2.png)
 
 # Usage
