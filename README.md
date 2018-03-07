@@ -17,6 +17,7 @@ pi install SpecUIAddOns
 
 In Pharo Smalltalk
 
+[//]: # (pi)
 ```smalltalk
 Metacello new	  baseline: 'SpecUIAddOns';	  repository: 'github://hernanmd/SpecUIAddOns/repository';	  load.
 ```
@@ -70,16 +71,6 @@ TextField with an action button code:
 TextField with action button widget:
 
 ![Screenshot 8](screenshots/03_SpcLabeledTextFieldWithButton_widget.png)
-
-## Lebeled TextField with Browse file Button
-
-![Screenshot 11](screenshots/04_SpcLabeledTextFieldWithBrowseButton_code.png)
-
-On click Browse button, a file selection dialog is displayed:
-
-![Screenshot 9](screenshots/04_SpcLabeledTextFieldWithBrowseButton_1.png)
-
-![Screenshot 10](screenshots/04_SpcLabeledTextFieldWithBrowseButton_2.png)
 
 ## Double Selector List
 
