@@ -10,7 +10,8 @@ baseline: spec
 
 			spec
 				project: 'Roassal2'
-				with: [ spec
+				with: [ 
+					spec
 						className: #ConfigurationOfRoassal2;
 						versionString: #development;
 						loads: #(Roassal2 Roassal2Spec Roassal2GT);
