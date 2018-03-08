@@ -5,12 +5,9 @@ baseline: spec
 		for: #common
 		do: [ 
 			spec
-				project: 'CommonUtils'
-				with: [ spec
-						className: #ConfigurationOfCommonUtils;
-						versionString: #development;
-						repository: 'http://smalltalkhub.com/mc/hernan/CommonUtils/main/' ].
-					
+				baseline: 'CommonUtils'
+				with: [ spec repository: 'github://hernanmd/CommonUtils/repository' ].
+
 			spec
 				project: 'Roassal2'
 				with: [ spec
