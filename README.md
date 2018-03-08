@@ -17,8 +17,9 @@ pi install SpecUIAddOns
 
 In Pharo Smalltalk
 
+[//]: # (pi)
 ```smalltalk
-Metacello new	  baseline: 'SpecUIAddOns';	  repository: 'github://hernanmd/SpecUIAddOns';	  load.
+Metacello new	  baseline: 'SpecUIAddOns';	  repository: 'github://hernanmd/SpecUIAddOns/repository';	  load.
 ```
 
 ## Development version
@@ -71,19 +72,9 @@ TextField with action button widget:
 
 ![Screenshot 8](screenshots/03_SpcLabeledTextFieldWithButton_widget.png)
 
-## Lebeled TextField with Browse file Button
-
-![Screenshot 11](screenshots/04_SpcLabeledTextFieldWithBrowseButton_code.png)
-
-On click Browse button, a file selection dialog is displayed:
-
-![Screenshot 9](screenshots/04_SpcLabeledTextFieldWithBrowseButton_1.png)
-
-![Screenshot 10](screenshots/04_SpcLabeledTextFieldWithBrowseButton_2.png)
-
 ## Double Selector List
 
-Provides two lists, acting as master-detail.
+Provides two lists, two list acting as master-detail and a third one with items associated to the detail list.
 
 ![Screenshot 12](screenshots/05_SpcDoubleSelector_final.png)
 
@@ -102,6 +93,8 @@ Provides two lists, acting as master-detail.
 ![Screenshot 17](screenshots/07_WizardTextField.png)
 
 ## Radio Button in Wizard
+
+Provides vertically aligned radio buttons:
 
 ![Screenshot 18](screenshots/08_SpcWizardRadioButtonExample_code.png)
 
