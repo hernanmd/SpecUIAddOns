@@ -1,0 +1,27 @@
+examples
+example2
+
+	| dataModel dict1 dict2 |
+	
+	dict1 := Dictionary new
+		at: 1 put: (1 to: 10) asArray;
+		at: 2 put: (11 to: 20) asArray;
+		yourself.
+	dict2 := Dictionary new
+		at: 3 put: 'Text for 3';
+		at: 4 put: 'Text for 4';
+		yourself.
+	
+	dataModel := Dictionary new
+		at: 'From 1 to 20' put: dict1;
+		at: 'From 30 to 50' put: dict2;
+		yourself.
+
+	SpcDoubleSelectorTextArea new
+		title: 'Double Selector TextArea Example';
+		dataModel: dataModel;
+		selector: #at:;
+		detailListSelector: #keys;
+		detailSelector: #at:;
+		selectionListItems: dataModel keys;		
+		openWithSpec

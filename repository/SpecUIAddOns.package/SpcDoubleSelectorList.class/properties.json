@@ -11,7 +11,8 @@
 		"detailSelector",
 		"secondDataModel",
 		"detailListSelector",
-		"secondLabelText"
+		"secondLabelText",
+		"updateOnFirstList"
 	],
 	"name" : "SpcDoubleSelectorList",
 	"type" : "normal"

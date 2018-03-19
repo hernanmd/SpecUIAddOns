@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SpcDoubleSelectorList",
+	"category" : "SpecUIAddOns-Lists",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"textWidget"
+	],
+	"name" : "SpcDoubleSelectorTextArea",
+	"type" : "normal"
+}
