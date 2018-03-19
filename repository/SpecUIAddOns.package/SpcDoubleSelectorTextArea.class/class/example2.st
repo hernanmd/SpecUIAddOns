@@ -19,6 +19,7 @@ example2
 
 	SpcDoubleSelectorTextArea new
 		title: 'Double Selector TextArea Example';
+		textWidgetLabel: 'Text for selection';
 		dataModel: dataModel;
 		selector: #at:;
 		detailListSelector: #keys;
