@@ -2,7 +2,7 @@ private
 moveElementAt: index to: newIndex
 	| elementToMove orderedList |
 	
-	(newIndex < 1 or: [ newIndex > list listItems size ]) ifTrue: [ ^self ].
+	(newIndex < 1 or: [ newIndex > self listWidget listItems size ]) ifTrue: [ ^self ].
 	
 	elementToMove := self listWidget listItems at: index.	
 	orderedList := self listWidget listItems asOrderedCollection
