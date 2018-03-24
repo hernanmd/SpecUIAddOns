@@ -34,6 +34,18 @@ Through command-line using [PI](https://github.com/hernanmd/pi):
 pi --dev install SpecUIAddOns
 ```
 
+## Baseline String
+
+If you want to add the ProjectFramework to your Metacello Baselines or Configurations, copy and paste the following expression:
+
+```smalltalk
+	" ... "
+	spec
+		baseline: 'SpecUIAddOns' 
+		with: [ spec repository: 'github://hernanmd/SpecUIAddOns/repository' ];
+	" ... "
+```
+
 # Screenshots
 
 ## Editable List
