@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "HernanMoralesDurand 6/9/2018 19:59",
+	"super" : "SpcLabeledTextArea",
+	"category" : "SpecUIAddOns-Lists",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"selectionList",
+		"detailTextAreaSelector",
+		"dataModel",
+		"labelText",
+		"listSelector"
+	],
+	"name" : "SpcSelectorTextArea",
+	"type" : "normal"
+}
