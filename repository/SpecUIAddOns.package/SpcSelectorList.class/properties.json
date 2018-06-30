@@ -9,7 +9,8 @@
 		"selectionList",
 		"selector",
 		"dataModel",
-		"labelText"
+		"labelText",
+		"detailSelectorClass"
 	],
 	"name" : "SpcSelectorList",
 	"type" : "normal"

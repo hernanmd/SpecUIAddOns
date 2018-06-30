@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 6/30/2018 14:32",
+	"super" : "SpcTreeModel",
+	"category" : "SpecUIAddOns-Widgets",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpcCheckListModel",
+	"type" : "normal"
+}

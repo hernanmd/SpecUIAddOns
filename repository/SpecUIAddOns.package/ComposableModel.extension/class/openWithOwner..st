@@ -1,4 +1,4 @@
-opening
+*SpecUIAddOns
 openWithOwner: anObject
 
 	^ self basicNew 
