@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 6/30/2018 20:06",
+	"super" : "SpcLabeledList",
+	"category" : "SpecUIAddOns-Lists",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpcLabeledDropList",
+	"type" : "normal"
+}
