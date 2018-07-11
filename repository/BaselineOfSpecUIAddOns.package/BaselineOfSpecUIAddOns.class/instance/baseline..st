@@ -7,16 +7,14 @@ baseline: spec
 			spec
 				baseline: 'CommonUtils'
 				with: [ spec repository: 'github://hernanmd/CommonUtils/repository' ].
-
 			spec
 				project: 'Roassal2'
 				with: [ 
 					spec
 						className: #ConfigurationOfRoassal2;
-						versionString: #development;
+						versionString: #stable;
 						loads: #(Roassal2 Roassal2Spec Roassal2GT);
 						repository: 'http://smalltalkhub.com/mc/ObjectProfile/Roassal2/main/' ].
-			
 			spec 
 				package: #'SpecUIAddOns' with: [ spec requires: 'CommonUtils' ];
 				package: #'SpecUIAddOns-Morphic' with: [ spec requires: #('SpecUIAddOns' ). ];
