@@ -11,7 +11,8 @@
 		"textFieldDelimiter",
 		"updateBlock",
 		"selectorTitle",
-		"displaySelectorBlock"
+		"displaySelectorBlock",
+		"itemsSelector"
 	],
 	"name" : "SpcLabeledTextFieldSelector",
 	"type" : "normal"
