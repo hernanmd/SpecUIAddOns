@@ -1,8 +1,8 @@
 initialization-submenus
 subMenuOpenOptions: item
-
 	item
 		name: 'Options...';
-		icon: #openIcon asIcon;
+		icon:
+			(self iconNamed: #openIcon);
 		shortcut: $o command;
 		action: [ self openOptions ]

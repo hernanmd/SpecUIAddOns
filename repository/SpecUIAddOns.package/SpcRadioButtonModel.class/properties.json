@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "RadioButtonModel",
+	"super" : "RadioButtonPresenter",
 	"category" : "SpecUIAddOns-Widgets",
 	"classinstvars" : [ ],
 	"pools" : [ ],

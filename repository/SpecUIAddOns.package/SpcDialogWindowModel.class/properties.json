@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 8/27/2017 04:41",
-	"super" : "WindowModel",
+	"super" : "WindowPresenter",
 	"category" : "SpecUIAddOns-Widgets",
 	"classinstvars" : [ ],
 	"pools" : [ ],

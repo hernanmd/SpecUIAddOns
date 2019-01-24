@@ -4,7 +4,8 @@ buildAddButton
 
 	^ self addButton
 		action: [ self addAction ];
-		icon: #add asIcon;
+		icon:
+			(self iconNamed: #add);
 		color: Color transparent;
 		help: self addButtonHelpText;
 		yourself

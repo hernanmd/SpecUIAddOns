@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 10/9/2015 01:11",
-	"super" : "DynamicComposableModel",
+	"super" : "DynamicComposablePresenter",
 	"category" : "SpecUIAddOns-GrowableList",
 	"classinstvars" : [ ],
 	"pools" : [ ],
