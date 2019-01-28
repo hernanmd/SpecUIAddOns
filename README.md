@@ -20,9 +20,9 @@ In Pharo Smalltalk
 
 [//]: # (pi)
 ```smalltalk
-Metacello new	
-  baseline: 'SpecUIAddOns';	
-  repository: 'github://hernanmd/SpecUIAddOns/repository';	
+Metacello new
+  baseline: 'SpecUIAddOns';
+  repository: 'github://hernanmd/SpecUIAddOns/repository';
   load.
 ```
 
@@ -41,7 +41,7 @@ If you want to add the ProjectFramework to your Metacello Baselines or Configura
 ```smalltalk
 	" ... "
 	spec
-		baseline: 'SpecUIAddOns' 
+		baseline: 'SpecUIAddOns'
 		with: [ spec repository: 'github://hernanmd/SpecUIAddOns/repository' ];
 	" ... "
 ```
@@ -164,7 +164,7 @@ Provides vertically aligned radio buttons:
 
 If you have discovered a bug or have a feature suggestion, feel free to create an issue on Github.
 
-If you'd like to make some changes yourself, see the following:    
+If you'd like to make some changes yourself, see the following:
 
   - Fork this repository to your own GitHub account and then clone it to your local device
   - Do some modifications
@@ -174,10 +174,10 @@ If you'd like to make some changes yourself, see the following:
   - This project follows the [all-contributors specification](https://github.com/kentcdodds/all-contributors). Contributions of any kind are welcome!
 
 # License
-	
+
 This software is licensed under the MIT License.
 
-Copyright Hernán Morales Durand, 2018.
+Copyright Hernán Morales Durand, 2018-2019.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
