@@ -1,38 +1,36 @@
 examples
 example2
-
 	| m rsTab smTab |
-
-	m := DynamicComposableModel new.
+	m := DynamicComposablePresenter new.
 	m instantiateModels: #(
-		tabmgr		TabManagerModel 
-		"button ButtonModel" 
-		list		SpcGrowableSearchListExample 
-		ok 			OkToolbar).
-
-	rsTab := TabModel owner: m.
+		tabmgr TabManagerPresenter 
+		list SpcGrowableSearchListExample 
+		ok OkToolbar).
+	rsTab := TabPresenter owner: m.
 	rsTab
 		label: 'Results';
-		icon: Smalltalk ui icons nautilusIcon;
-		model: (ClassMethodBrowser new
-			classes: Smalltalk allClasses;
-			yourself).
-	smTab  := TabModel owner: m.
+		icon:
+			(self iconNamed: #references);
+		presenter:
+			(ClassMethodBrowser new
+				classes: Smalltalk allClasses;
+				yourself).
+	smTab := TabPresenter owner: m.
 	smTab
 		label: 'Summary';
-		icon: Smalltalk ui icons stringIcon;
-		retrievingBlock: [ TextModel owner: m. ].
-		
-	m tabmgr 
+		icon: (self iconNamed: #group);
+		retrievingBlock: [ TextPresenter owner: m ].
+	m tabmgr
 		addTab: rsTab;
 		addTab: smTab;
 		yourself.
-
 	m ok okAction: [ self delete ].
-	
-	m openWithSpecLayout: (SpecLayout composed
-		newColumn: [: c | 
-			c add: #list ;
-				add: #tabmgr; 
-				add: #ok height: 26 ];
-		yourself).
+	m
+		openWithSpecLayout:
+			(SpecLayout composed
+				newColumn: [ :c | 
+					c
+						add: #list;
+						add: #tabmgr;
+						add: #ok height: 26 ];
+				yourself)

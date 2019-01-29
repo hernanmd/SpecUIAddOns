@@ -2,7 +2,7 @@ examples
 example1
 
 	| m |
-	m := DynamicComposableModel new.
+	m := DynamicComposablePresenter new.
 	m instantiateModels: #(
 		list 	SpcGrowableSearchListExample 
 		ok 		OkToolbar).

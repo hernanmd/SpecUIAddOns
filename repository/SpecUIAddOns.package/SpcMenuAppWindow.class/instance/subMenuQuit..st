@@ -1,9 +1,10 @@
 initialization-submenus
 subMenuQuit: item
 	" Configure the menu option for closing the receiver "
-	
-	item 
+
+	item
 		name: 'Quit';
 		shortcut: $q command;
-		icon: #smallQuitIcon asIcon;
+		icon:
+			(self iconNamed: #smallQuitIcon);
 		action: [ self quitApplication ]
