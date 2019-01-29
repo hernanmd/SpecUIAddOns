@@ -2,8 +2,8 @@ initialization
 initializeBoxModels
 
 	self instantiateModels:
-			#(#iVarNameList #DropListModel 
-			#label #TextInputFieldModel 
-			#defaultValue #TextInputFieldModel 
-			#priority #TextInputFieldModel
-			#ok #ButtonModel).
+			#(#iVarNameList #DropListPresenter 
+			#label #TextInputFieldPresenter 
+			#defaultValue #TextInputFieldPresenter 
+			#priority #TextInputFieldPresenter
+			#ok #ButtonPresenter).

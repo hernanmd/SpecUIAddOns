@@ -4,9 +4,9 @@ initializeWidgets
 
 	self instantiateModels: #(
 		label LabelModel
-		okButton ButtonModel 
-		cancelButton ButtonModel
-		itemList TreeModel).
+		okButton ButtonPresenter 
+		cancelButton ButtonPresenter
+		itemList TreePresenter).
 	self initializeButtons.
 	self label label: self labelText.
 	self itemList 

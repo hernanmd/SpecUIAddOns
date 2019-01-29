@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 12/26/2016 16:51",
-	"super" : "MultiColumnListModel",
+	"super" : "MultiColumnListPresenter",
 	"category" : "SpecUIAddOns-Lists",
 	"classinstvars" : [ ],
 	"pools" : [ ],

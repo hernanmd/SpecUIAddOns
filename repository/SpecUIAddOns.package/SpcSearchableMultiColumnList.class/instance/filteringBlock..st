@@ -1,4 +1,4 @@
-initialize
+accessing
 filteringBlock: aBlock
 
-	self listModel filteringBlock: aBlock
+	self listPresenter filteringBlock: aBlock

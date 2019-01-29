@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 9/3/2017 15:26",
-	"super" : "ComposableModel",
+	"super" : "ComposablePresenter",
 	"category" : "SpecUIAddOns-Lists",
 	"classinstvars" : [ ],
 	"pools" : [ ],

@@ -1,4 +1,4 @@
 testing
 hasMultipleSelections
 
-	^ self listModel selectedItems size > 1
+	^ self listPresenter selectedItems size > 1

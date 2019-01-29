@@ -2,7 +2,7 @@ initialization
 initializeBoxModels
 
 	self instantiateModels: #(
-		propertyList 		DropListModel 
-		comparatorsList 	DropListModel 
-		queryValue 			TextInputFieldModel 
-		ok 						ButtonModel).
+		propertyList 		DropListPresenter 
+		comparatorsList 	DropListPresenter 
+		queryValue 			TextInputFieldPresenter 
+		ok 						ButtonPresenter).

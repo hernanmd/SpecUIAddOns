@@ -1,3 +1,3 @@
 accessing
 header
-	^ self listModel headerItems.
+	^ self listPresenter headerItems.

@@ -1,4 +1,4 @@
-initialize
+accessing
 displayBlock: aBlock
 
-	self listModel displayBlock: aBlock
+	self listPresenter displayBlock: aBlock

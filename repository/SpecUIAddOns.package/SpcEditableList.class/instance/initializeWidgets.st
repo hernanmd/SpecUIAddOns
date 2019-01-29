@@ -3,7 +3,7 @@ initializeWidgets
 	" Private - See superimplementor's comment "
 
 	super initializeWidgets.
-	self instantiateModels: #(editButton 	ButtonModel).
+	self instantiateModels: #(editButton 	ButtonPresenter).
 	self buildEditButton.
 	self focusOrder 
 		add: self addButton;

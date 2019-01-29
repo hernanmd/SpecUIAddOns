@@ -1,6 +1,5 @@
 examples
 example01
-
 	| model |
 
 	model := SpcMultiColumnListModelWithHeader new

@@ -3,5 +3,5 @@ removeAll
 	" Remove all recever's items "
 
 	self items: Array empty.
-	self listModel removeAll.
+	self listPresenter removeAll.
 	self updateList.

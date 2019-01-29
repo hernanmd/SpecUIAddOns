@@ -1,8 +1,9 @@
-initialize
+initialization
 initializeWidgets
+	" Private - See superimplementor's comment "
 
 	self instantiateWidgets.
-	searchModel 
+	self searchPresenter 
 		isCodeCompletionAllowed: false;
 		entryCompletion: nil;		
 		autoAccept: true;

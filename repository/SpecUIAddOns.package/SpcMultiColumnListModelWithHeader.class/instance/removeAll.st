@@ -4,5 +4,5 @@ removeAll
 	
 	listHolder := self collectionClass new asValueHolder.
 	listItemsCache := nil.
-	self widget ifNotNilDo: [ : w | w removeAll ].
+	self widget ifNotNil: [ : w | w removeAll ].
 	self update: #getList.

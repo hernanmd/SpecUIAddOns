@@ -3,8 +3,8 @@ initializeWidgets
 
 	super initializeWidgets.
 	self instantiateModels: #(
-		addButton			ButtonModel
-		removeButton 		ButtonModel).
+		addButton			ButtonPresenter
+		removeButton 		ButtonPresenter).
 	self 
 		buildAddButton;
 		buildRemoveButton.

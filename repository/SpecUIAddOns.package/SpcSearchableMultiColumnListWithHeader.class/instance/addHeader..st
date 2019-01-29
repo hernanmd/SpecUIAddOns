@@ -1,4 +1,4 @@
 protocol
 addHeader: aCollection 
 
-	self listModel addHeader: aCollection 
+	self listPresenter addHeader: aCollection 

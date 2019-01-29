@@ -1,6 +1,6 @@
-initialize
+initialization
 instantiateWidgets
 
 	self instantiateModels: #(	
-		listModel 	MultiColumnListModel
-		searchModel 	TextInputFieldModel ).
+		listPresenter 		MultiColumnListModel
+		searchPresenter 	TextInputFieldPresenter ).

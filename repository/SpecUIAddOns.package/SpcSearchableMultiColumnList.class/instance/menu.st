@@ -1,4 +1,4 @@
 protocol
 menu
 
-	^ self listModel menu
+	^ self listPresenter menu

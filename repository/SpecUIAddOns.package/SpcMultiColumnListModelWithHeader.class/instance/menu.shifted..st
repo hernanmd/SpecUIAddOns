@@ -1,4 +1,4 @@
-api
+private
 menu: aMenu shifted: aBoolean
 	"Build the menu when you right click on an item"
 

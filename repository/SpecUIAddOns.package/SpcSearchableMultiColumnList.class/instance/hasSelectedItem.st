@@ -1,3 +1,3 @@
 testing
 hasSelectedItem
-	^ self listModel selectedItem notNil.
+	^ self listPresenter selectedItem notNil.

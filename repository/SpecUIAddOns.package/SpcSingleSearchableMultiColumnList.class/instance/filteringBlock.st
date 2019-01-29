@@ -3,7 +3,6 @@ filteringBlock
 
 	^ [ : col | 
 			col select: [: e | 
-				e asString size < searchModel getText size
+				e asString size < self searchText size
 					ifTrue: [ false ]
-					ifFalse: [ 
-						e asLowercase beginsWith: searchModel getText asLowercase ]]]
+					ifFalse: [ e asLowercase beginsWith: self searchText asLowercase ]]]

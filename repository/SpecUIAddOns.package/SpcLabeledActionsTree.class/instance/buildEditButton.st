@@ -1,9 +1,9 @@
 accessing - buttons
 buildEditButton
-
 	^ self buttonModify
 		action: [ self editAction ];
-		icon: #edit asIcon;
+		icon:
+			(self iconNamed: #edit);
 		color: Color transparent;
 		help: 'Modify the selected item';
 		yourself

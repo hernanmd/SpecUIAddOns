@@ -1,4 +1,4 @@
 protocol
 beMultipleSelection
 
-	self listModel beMultipleSelection 
+	self listPresenter beMultipleSelection 

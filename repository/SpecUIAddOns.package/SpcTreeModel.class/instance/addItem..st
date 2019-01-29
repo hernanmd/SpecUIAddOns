@@ -7,7 +7,7 @@ addItem: anObject
 	
 	self flag: 'Cannot dynamically add a child to a TreeNodeModel?'.
 	parent := self selectedItem.
-	parent addChildren: (TreeNodeModel new
+	parent addChildren: (TreeNodePresenter new
 		content: anObject;
 		children: [ self childrenFor: anObject ];
 		hasChildren: [ self hasChildrenFor: anObject ];

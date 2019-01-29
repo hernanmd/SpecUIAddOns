@@ -3,7 +3,7 @@ initializeWidgets
 	" Private - See superimplementor's comment "
 
 	super initializeWidgets.
-	self instantiateModels: #(textField		TextInputFieldModel).
+	self instantiateModels: #(textField		TextInputFieldPresenter).
 	textField
 		ghostText: self ghostText;
 		acceptBlock: [ self triggerOkAction ];

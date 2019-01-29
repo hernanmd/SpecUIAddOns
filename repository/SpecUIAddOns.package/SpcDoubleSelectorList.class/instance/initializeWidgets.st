@@ -5,7 +5,7 @@ initializeWidgets
 	super initializeWidgets.
 	self instantiateModels: #(
 		secondSelectionLabel 	LabelModel
-		secondSelectionList 	DropListModel).
+		secondSelectionList 	DropListPresenter).
 			
 	self secondSelectionLabel label: self secondLabelText.
 	self secondSelectionList displayBlock: [ : item | item asString ].

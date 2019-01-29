@@ -1,4 +1,4 @@
 accessing
 selectedItems
 
-	^ self listModel selectedItems
+	^ self listPresenter selectedItems
