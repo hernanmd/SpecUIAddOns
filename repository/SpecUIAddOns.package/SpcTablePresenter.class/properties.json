@@ -1,14 +1,14 @@
 {
 	"commentStamp" : "HernanMoralesDurand 12/26/2016 16:51",
-	"super" : "MultiColumnListPresenter",
+	"super" : "AbstractWidgetPresenter",
 	"category" : "SpecUIAddOns-Lists",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"header",
-		"beNumbered"
+		"listHolder",
+		"model"
 	],
-	"name" : "SpcMultiColumnListModelWithHeader",
+	"name" : "SpcTablePresenter",
 	"type" : "normal"
 }

@@ -2,5 +2,5 @@ initialization
 instantiateWidgets
 
 	self instantiateModels: #(	
-		listPresenter 		SpcMultiColumnListModelWithHeader
+		listPresenter 		#SpcTablePresenter
 		searchPresenter 	TextInputFieldPresenter ).

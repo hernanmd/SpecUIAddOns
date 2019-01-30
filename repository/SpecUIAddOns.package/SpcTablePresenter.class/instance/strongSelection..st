@@ -1,0 +1,4 @@
+callbacks
+strongSelection: aFTStrongSelectionChanged
+
+	self shouldBeImplemented
