@@ -1,9 +1,9 @@
 *SpecUIAddOns
 add: anItem
-	"Add an item to the list and answer it."
+	" Add an item to the receiver's list, update and answer he added item. "
 
 	| answer |
 	
 	answer := self listItems add: anItem.
-	self update: #getList.
-	^answer
+	self updateList.
+	^ answer
