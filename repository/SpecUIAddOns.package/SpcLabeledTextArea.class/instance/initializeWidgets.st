@@ -3,7 +3,7 @@ initializeWidgets
 	" Private - See superimplementor's comment "
 
 	super initializeWidgets.
-	self instantiateModels: #(textArea		TextModel).
+	self instantiateModels: #(textArea		TextPresenter).
 	textArea 
 		beForText;
 		acceptBlock: [ self triggerOkAction ].
