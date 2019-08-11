@@ -2,4 +2,4 @@ accessing
 toString: anObject
 	"Override me if you expect something else."
 
-	^ anObject name
+	^ anObject dsPrintString
