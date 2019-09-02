@@ -1,3 +1,4 @@
 accessing
 searchStrategy: aString 
-	self ftMorph dataSource searchStrategy: aString.
+
+	self dataSource searchStrategy: aString.
