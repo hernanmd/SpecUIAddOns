@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "FTAllItemsStrategy",
+	"category" : "SpecUIAddOns-Widgets",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"hits"
+	],
+	"name" : "FTAllMatchItemsStrategy",
+	"type" : "normal"
+}
