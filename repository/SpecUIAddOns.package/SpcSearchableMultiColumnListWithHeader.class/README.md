@@ -1,1 +1,2 @@
-See class side for examples.
+REVIEW THIS CLASS.
+POSSIBLY OBSOLETE 
