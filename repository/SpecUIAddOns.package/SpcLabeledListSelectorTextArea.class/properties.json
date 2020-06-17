@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SpcSelectorTextArea",
+	"category" : "SpecUIAddOns-Lists",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpcLabeledListSelectorTextArea",
+	"type" : "normal"
+}
