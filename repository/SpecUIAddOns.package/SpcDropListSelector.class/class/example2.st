@@ -1,5 +1,5 @@
 examples
-example3
+example2
 
 	| dataModel |
 	dataModel := Dictionary new
@@ -7,7 +7,7 @@ example3
 		at: 'Even' put: ((1 to: 20) select: #even);
 		yourself.
 
-	(SpcSelectorList newWithDetailSelectorClass: SpcCheckListModel)
+	(SpcDropListSelector newWithDetailClass: SpcMultipleCheckListModel)
 		dataModel: dataModel;
 		selector: #at:;
 		selectionListItems: dataModel keys;

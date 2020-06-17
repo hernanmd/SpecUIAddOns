@@ -3,8 +3,8 @@ initializeWidgets
 	" Private - See superimplementor's comment "
 
 	super initializeWidgets.
-	self instantiateModels: #(selectionList	DropListPresenter).	
-	self listWidget: (self instantiate: self detailSelectorClass).
+	self instantiateModels: self listModelInstSpec.	
+	self listWidget: (self instantiate: self detailSpcClass).
 	self selectionList displayBlock: [ : item | item asString ].
 	self focusOrder 
 		add: self selectionList;

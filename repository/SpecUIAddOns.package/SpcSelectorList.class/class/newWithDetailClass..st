@@ -1,8 +1,8 @@
 instance creation
-newWithDetailSelectorClass: aClass
+newWithDetailClass: aClass
 	" Set an owner before initializing receiver's widgets "
 
 	^ self basicNew 
-		detailSelectorClass: aClass;
+		detailSpcClass: aClass;
 		initialize;
 		yourself

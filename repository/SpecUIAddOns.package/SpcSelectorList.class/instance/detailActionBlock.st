@@ -1,0 +1,4 @@
+accessing
+detailActionBlock
+
+	self subclassResponsibility

@@ -1,0 +1,4 @@
+initialization
+listModelInstSpec
+
+	self subclassResponsibility 

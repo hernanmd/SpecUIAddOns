@@ -7,8 +7,9 @@ example1
 		at: 'Even' put: ((1 to: 20) select: #even);
 		yourself.
 
-	SpcSelectorList new
+	SpcLabeledDropSelectorTextArea new
 		dataModel: dataModel;
-		selector: #at:;
+		listSelector: #at:;
+		detailTextAreaSelector: #printString;
 		selectionListItems: dataModel keys;		
 		openWithSpec

@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "SpcSelectorList",
+	"super" : "SpcDropListSelector",
 	"category" : "SpecUIAddOns-Lists",
 	"classinstvars" : [ ],
 	"pools" : [ ],

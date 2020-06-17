@@ -10,7 +10,7 @@
 		"selector",
 		"dataModel",
 		"labelText",
-		"detailSelectorClass"
+		"detailSpcClass"
 	],
 	"name" : "SpcSelectorList",
 	"type" : "normal"
