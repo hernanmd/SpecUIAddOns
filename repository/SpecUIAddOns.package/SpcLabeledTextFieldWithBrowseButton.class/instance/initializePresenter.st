@@ -4,4 +4,7 @@ initializePresenter
 	
 	self buttonLabel: 'Browse'.
 	self button action: [ 
-		self textField text: (self selectFile: self fileExtension) ].
+		self textField text: (
+			self isForFile 
+				ifTrue: [ self selectFile: self fileExtension ]
+				ifFalse: [ self selectDirectory ]) ].

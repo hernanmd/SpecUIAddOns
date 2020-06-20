@@ -8,6 +8,6 @@ defaultSpec
 				r 
 					add: #label width: self labelWidth;
 					add: #selectionList ] 
-				height: self toolbarHeight;
+				height: self toolbarHeight * 1.2;
 				add: #textArea ];
 				yourself
