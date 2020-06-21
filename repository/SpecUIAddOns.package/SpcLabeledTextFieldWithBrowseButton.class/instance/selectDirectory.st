@@ -1,7 +1,7 @@
 private
 selectDirectory
-	" Request a directory and answer the full path "
+	" Request a directory and answer a <String> with the full path "
 
 	^ (self requestDirectoryName: 'Select a directory')
-		ifNotNil: [ : dirname | dirname ]
+		ifNotNil: [ : dirReference | dirReference fullName ]
 		ifNil: [ String empty ]
