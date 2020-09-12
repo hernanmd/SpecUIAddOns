@@ -5,6 +5,4 @@ removeAction
 	(self listWidget notEmpty and: [ self listWidget hasSelection ])
 		ifTrue: [ 
 			^ self removeActionBlock value
-				ifTrue: [ 
-					self listWidget remove: self selectedItem.
-					self listWidget updateList. ] ]
+				ifTrue: [ self listWidget removeSelectedItem ] ]
