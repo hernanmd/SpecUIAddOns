@@ -1,0 +1,4 @@
+*SpecUIAddOns
+dsPrintString
+
+	^ self asString.
