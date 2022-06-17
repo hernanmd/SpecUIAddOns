@@ -4,34 +4,17 @@
 
 # Description
 
-This package provides widgets for Spec (Pharo Smalltalk UI description framework).
+This package provides widgets for Spec 1 (Pharo Smalltalk UI description framework).
+
+_NOTE: Currently since Pharo 10 only Spec 2 is supported. SpecUIAddOns is developed for Spec 1, hence it will NOT load correctly in Pharo versions >= 10._
 
 # Installation
 
-## Stable version
-
-Through command-line using [PI](https://github.com/hernanmd/pi):
-
-```bash
-pi install SpecUIAddOns
-```
-
-In Pharo Smalltalk
-
-[//]: # (pi)
 ```smalltalk
 Metacello new
   baseline: 'SpecUIAddOns';
   repository: 'github://hernanmd/SpecUIAddOns/repository';
   load.
-```
-
-## Development version
-
-Through command-line using [PI](https://github.com/hernanmd/pi):
-
-```bash
-pi --dev install SpecUIAddOns
 ```
 
 ## Baseline String
