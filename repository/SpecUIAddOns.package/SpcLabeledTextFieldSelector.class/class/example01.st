@@ -6,6 +6,6 @@ example01
 		buttonLabel: 'Verify';
 		items: (1 to: 10);
 		ownerAction: [ : selections | self inform: 'Selected : ' , selections asString  ];
-		ghostText: 'Please enter a value';	
+		placeholder: 'Please enter a value';	
 		label: 'Title';
-		openWithSpec.
+		open

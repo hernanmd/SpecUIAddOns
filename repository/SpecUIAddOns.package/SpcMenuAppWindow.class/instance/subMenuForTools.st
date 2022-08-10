@@ -2,6 +2,6 @@ initialization-submenus
 subMenuForTools 
 	" Private - Configure menu for  receiver's Tools "
 
-	^ MenuModel new
+	^ self newMenu
 		addGroup: [ : group |
 			group addItem: [ : item | self subMenuOpenOptions: item ] ]

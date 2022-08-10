@@ -1,4 +1,0 @@
-api
-firstButtonAction
-
-	^ firstButtonAction value

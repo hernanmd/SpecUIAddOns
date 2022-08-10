@@ -1,3 +1,0 @@
-examples
-setNewQuery
-	" shouldBeImplemented "

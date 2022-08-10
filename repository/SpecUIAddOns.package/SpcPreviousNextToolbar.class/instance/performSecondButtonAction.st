@@ -1,4 +1,0 @@
-protocol
-performSecondButtonAction
-
-	^ self performCancelButtonAction

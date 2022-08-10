@@ -3,9 +3,8 @@ initializePresenter
 	" Private - See superimplementor's comment "
 
 	self selectionList
-		whenSelectedItemChanged: [ :selection | 
+		whenSelectedItemChangedDo: [ :selection | 
 			selection
 				ifNotNil: [ :arg | 
 					self listWidget
-						setItems: (self dataModel perform: selector with: selection);
-						refreshListItems ] ]
+						items: (self dataModel perform: selector with: selection) ] ]

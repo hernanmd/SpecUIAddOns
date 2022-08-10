@@ -1,2 +1,0 @@
-SpcWizardRadioButtonExample1 open
-

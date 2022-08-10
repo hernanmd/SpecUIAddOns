@@ -1,4 +1,0 @@
-*SpecUIAddOns
-selectionHolderItem
-
-	^ selectionHolder selection

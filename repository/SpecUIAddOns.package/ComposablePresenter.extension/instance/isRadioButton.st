@@ -1,4 +1,0 @@
-*SpecUIAddOns
-isRadioButton
-
-	^ false

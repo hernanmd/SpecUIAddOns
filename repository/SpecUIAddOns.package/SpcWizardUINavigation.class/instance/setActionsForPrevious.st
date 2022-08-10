@@ -1,3 +1,0 @@
-accessing
-setActionsForPrevious
-	" Do nothing "

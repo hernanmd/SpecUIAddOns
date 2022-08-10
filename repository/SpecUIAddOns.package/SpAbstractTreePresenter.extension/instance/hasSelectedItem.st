@@ -1,0 +1,4 @@
+*SpecUIAddOns
+hasSelectedItem
+
+	^ roots notEmpty

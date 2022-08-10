@@ -1,4 +1,0 @@
-protocol
-beMultipleSelection
-
-	self listPresenter beMultipleSelection 

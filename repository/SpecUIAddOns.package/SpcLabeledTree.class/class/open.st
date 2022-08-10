@@ -1,4 +1,4 @@
 opening
 open
 
-	^ self new openWithSpec.
+	^ self new open

@@ -1,0 +1,4 @@
+initialization
+execute
+
+	self subclassResponsibility

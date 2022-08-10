@@ -1,4 +1,0 @@
-private
-beInvalid
-
-	status := false

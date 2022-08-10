@@ -1,12 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "ComposablePresenter",
+	"super" : "SpPresenter",
 	"category" : "SpecUIAddOns-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"layout",
 		"layoutSpecSelector"
 	],
 	"name" : "SpcDynamicLayoutPresenter",

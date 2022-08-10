@@ -1,6 +1,6 @@
 {
-	"commentStamp" : "HernanMoralesDurand 10/22/2014 00:55",
-	"super" : "MorphicWindowAdapter",
+	"commentStamp" : "",
+	"super" : "SpMorphicWindowAdapter",
 	"category" : "SpecUIAddOns-MorphicAdapters",
 	"classinstvars" : [ ],
 	"pools" : [ ],

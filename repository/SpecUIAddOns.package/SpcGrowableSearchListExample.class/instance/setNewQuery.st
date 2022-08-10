@@ -1,3 +1,0 @@
-private
-setNewQuery
-	" Do nothing "

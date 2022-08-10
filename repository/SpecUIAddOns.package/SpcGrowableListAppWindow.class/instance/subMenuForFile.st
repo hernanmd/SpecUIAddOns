@@ -1,4 +1,0 @@
-menu
-subMenuForFile
-
-	self subclassResponsibility

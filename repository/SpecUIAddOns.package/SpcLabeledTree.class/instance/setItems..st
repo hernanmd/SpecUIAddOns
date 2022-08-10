@@ -1,5 +1,5 @@
 accessing
 setItems: aCollection
-	" See comment in <TreeModel> "
+	" See comment in <SpTreeModel> "
 	
-	^ self tree setItems: aCollection
+	^ self tree items: aCollection

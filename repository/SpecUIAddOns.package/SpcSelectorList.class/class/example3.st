@@ -11,4 +11,4 @@ example3
 		dataModel: dataModel;
 		selector: #at:;
 		selectionListItems: dataModel keys;
-		openWithSpec
+		open

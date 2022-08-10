@@ -1,4 +1,4 @@
 initialization
 defaultToolbarClass
 
-	^ SpcExecToolbar
+	^ SpToolbarPresenter

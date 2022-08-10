@@ -1,4 +1,0 @@
-initialization
-defaultIVarNameList
-
-	^ Array new

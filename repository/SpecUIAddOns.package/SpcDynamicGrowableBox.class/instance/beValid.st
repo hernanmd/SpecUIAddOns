@@ -1,4 +1,0 @@
-private
-beValid
-
-	status := true

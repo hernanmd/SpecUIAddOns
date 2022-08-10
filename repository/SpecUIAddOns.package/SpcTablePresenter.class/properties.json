@@ -1,6 +1,6 @@
 {
-	"commentStamp" : "HernanMoralesDurand 12/26/2016 16:51",
-	"super" : "AbstractWidgetPresenter",
+	"commentStamp" : "",
+	"super" : "SpAbstractWidgetPresenter",
 	"category" : "SpecUIAddOns-Lists",
 	"classinstvars" : [ ],
 	"pools" : [ ],

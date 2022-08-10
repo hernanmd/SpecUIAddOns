@@ -3,6 +3,6 @@ example01
 
 	self new 
 		buttonLabel: 'Verify';
-		ghostText: 'Please enter a value';	
+		placeholder: 'Please enter a value';	
 		label: 'Title';
-		openWithSpec.
+		open

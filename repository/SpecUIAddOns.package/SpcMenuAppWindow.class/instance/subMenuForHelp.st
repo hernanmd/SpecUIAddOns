@@ -1,7 +1,7 @@
 initialization-submenus
 subMenuForHelp 
 
-	^ MenuModel new
+	^ self newMenu
 		addGroup: [ : group |
 			group 
 				addItem: [ : item | self subMenuHelp: item ];
