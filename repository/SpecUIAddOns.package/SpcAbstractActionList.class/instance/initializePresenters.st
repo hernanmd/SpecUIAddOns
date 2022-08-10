@@ -8,7 +8,7 @@ initializePresenters
 		buildAddButton;
 		buildRemoveButton.
 
-	self listWidget whenSelectionChanged: [ 
+	self listWidget whenSelectionChangedDo: [ 
 		self listWidget hasSelection 
 			ifFalse: [ self removeButton disable ]
 			ifTrue: [ self removeButton enable ] ].
