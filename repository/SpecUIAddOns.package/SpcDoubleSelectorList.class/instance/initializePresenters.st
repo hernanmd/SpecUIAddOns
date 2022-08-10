@@ -1,7 +1,14 @@
 initialization
-initializePresenter
+initializePresenters
 	" Private - See superimplementor's comment "
 
+	super initializePresenters.
+	secondSelectionLabel := self newLabel.
+	secondSelectionList := self newDropList.
+			
+	self secondSelectionLabel label: self secondLabelText.
+	self secondSelectionList display: [ : item | item asString ].
+	
 	self selectionList
 		whenSelectedItemChanged: [ :selection | 
 			selection
@@ -16,4 +23,6 @@ initializePresenter
 				ifNotNil: [ :arg | 
 					self listWidget
 						items: (self secondDataModel perform: detailSelector with: selection);
-						refreshListItems ] ]
+						updateList ] ].
+	self focusOrder 
+		add: self secondSelectionList

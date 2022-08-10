@@ -1,4 +1,0 @@
-initialization
-listModelInstSpec
-
-	^  #(selectionList		DropListPresenter)

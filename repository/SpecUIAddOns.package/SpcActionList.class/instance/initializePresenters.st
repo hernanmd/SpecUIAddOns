@@ -1,8 +1,8 @@
 initialization
-initializeWidgets
+initializePresenters
 	" Private - See superimplementor's comment "
 
-	super initializeWidgets.
+	super initializePresenters.
 	upButton := self newButton.
 	downButton := self newButton.
 	topButton := self newButton.
@@ -18,4 +18,8 @@ initializeWidgets
 		help: 'Move this item on the first position of the list'.
 	bottomButton
 		icon: (self iconNamed: #bottomIcon);
-		help: 'Move this item on the last position of the list'
+		help: 'Move this item on the last position of the list'.
+	topButton action: [ self moveElementAt: self listWidget selectedIndex to: 1 ].
+	bottomButton action: [ self moveElementAt: self listWidget selectedIndex to: self listWidget listItems size ].
+	upButton action: [ self moveElementAt: self listWidget selectedIndex to: self listWidget selectedIndex - 1 ].
+	downButton action: [ self moveElementAt: self listWidget selectedIndex to: self listWidget selectedIndex + 1 ].

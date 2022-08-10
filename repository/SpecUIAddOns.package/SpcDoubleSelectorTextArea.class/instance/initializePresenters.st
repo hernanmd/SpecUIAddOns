@@ -1,7 +1,9 @@
 initialization
-initializePresenter
+initializePresenters
 	" Private - See superimplementor's comment "
 
+	super initializePresenters.
+	textWidget := self instantiate: SpcLabeledTextArea.
 	self selectionList
 		whenSelectedItemChanged: [ : firstSel | 
 			firstSel
