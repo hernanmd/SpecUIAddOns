@@ -2,6 +2,7 @@ examples
 example3
 
 	SpcEditableList new
+		buttonsOnBottomLayout;
 		items: self selectors;	
-		openWithSpec: #buttonsOnBottomSpec;
+		open;
 		yourself.

@@ -4,8 +4,7 @@ buildRemoveButton
 
 	^ self removeButton
 		action: [ self removeAction ];
-		icon:
-			(self iconNamed: #removeIcon);
+		icon: 	(self iconNamed: #removeIcon);
 		color: Color transparent;
 		help: self removeButtonHelpText;
 		yourself

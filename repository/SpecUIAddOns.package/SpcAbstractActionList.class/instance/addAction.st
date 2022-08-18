@@ -4,5 +4,5 @@ addAction
 
 	^ self addActionBlock value
 		ifNotNil: [ :newItem |
-			self listWidget add: newItem.
-			self listWidget updateList ]
+			self model add: newItem.
+			self updateList ]

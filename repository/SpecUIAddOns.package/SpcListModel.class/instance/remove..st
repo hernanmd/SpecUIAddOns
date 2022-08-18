@@ -4,4 +4,3 @@ remove: anItem
 
 	super remove: anItem.
 	self updateList.
-	self refreshListItems.

@@ -1,4 +1,4 @@
 api
 includes: anObject
 
-	^ self listItems includes: anObject
+	^ self model includes: anObject

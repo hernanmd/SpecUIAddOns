@@ -1,4 +1,4 @@
 accessing
 selectFirstItem
 
-	self setSelectedIndex: 1.
+	self selectFirst

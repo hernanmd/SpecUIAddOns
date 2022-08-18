@@ -4,4 +4,4 @@ initializePresenters
 
 	super initializePresenters.
 	listWidget := self newList.
-	self focusOrder add: self listWidget				
+	self focusOrder add: self listWidget

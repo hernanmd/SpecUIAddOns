@@ -3,5 +3,6 @@ scrollPageDown
 	" Scroll down the receiver vertically one page "
 	
 	| listWgt |
-	listWgt := self spec instance widget.
+	self flag: 'How to retrieve the scrollbar in Spec 2'.
+	listWgt := self presenters widget.
 	listWgt scrollBar scrollDown: 1.
