@@ -4,5 +4,5 @@ quitApplicationWindow
 
 	self class removeSelector: #canDiscardEdits.
 	self delete. 
-	self askOkToClose: false.
+	self window askOkToClose: false.
 	Smalltalk garbageCollect.
