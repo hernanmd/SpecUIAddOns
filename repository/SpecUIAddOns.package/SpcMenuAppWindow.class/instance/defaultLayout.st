@@ -1,4 +1,4 @@
-specs
+layout
 defaultLayout
 	
 	^ self layout: (SpBoxLayout newTopToBottom
